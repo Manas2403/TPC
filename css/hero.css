@@ -1,0 +1,103 @@
+.hero-container {
+  background: linear-gradient(
+      0deg,
+      rgba(7, 15, 41, 0.8549019607843137),
+      rgba(25, 34, 61, 0.623) 20%,
+      rgba(37, 71, 140, 0.39),
+      hsla(0, 0%, 100%, 0)
+    ),
+    url(/assets/heroBackground.jpg) 50% / cover no-repeat;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  background-size: auto;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 1000px 0 0 transparent;
+  object-fit: contain;
+}
+
+.hero-logo {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  object-fit: fill;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+  padding: 10px;
+  background: rgba(240, 248, 255, 0.6392156862745098);
+  border-radius: 40px;
+}
+.main-heading {
+  margin-bottom: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: calc(28px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
+}
+.main-heading > span,
+.hero-subheading > span {
+  color: #fad02c !important;
+}
+.hero-subheading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: calc(18px + (30 - 15) * ((100vw - 600px) / (1200 - 300)));
+  margin-bottom: 60px;
+  padding-top: 20px;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s ease-in-out 0.5s, transform 1.5s ease-in-out 0.5s;
+}
+
+.scroll-arrow span {
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+
+.scroll-arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.scroll-arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(45deg) translate(10px, 10px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .hero-subheading {
+    font-size: 30px;
+  }
+  .main-heading {
+    font-size: 40px;
+  }
+}
