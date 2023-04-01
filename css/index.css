@@ -1,5 +1,42 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Recruiter Section */
+.recruiter-section {
+}
+.recruiter-heading {
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+.recruiter-container {
+    position: relative;
+    max-width: 130em;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0 2rem;
+}
+.recruiter-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    margin: 0 auto;
+}
+.recruiter-card {
+    cursor: pointer;
+    display: flex;
+    padding: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 0.6rem;
+    font-size: 1.6rem;
+    box-shadow: 0 2px 4px 0 rgb(12 0 46 / 4%);
+    background-color: rgb(255, 255, 255);
 }
