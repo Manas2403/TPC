@@ -6,7 +6,9 @@
       rgba(37, 71, 140, 0.39),
       hsla(0, 0%, 100%, 0)
     ),
-    url("../assets/heroBackground.jpg") 50% / cover no-repeat;
+    url("../assets/heroBackground.jpg");
+  background-size: contain;
+  background-position: center;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   background-size: auto;
@@ -31,6 +33,8 @@
   padding: 10px;
   background: rgba(240, 248, 255, 0.6392156862745098);
   border-radius: 40px;
+  max-width: 50vmin;
+  max-height: 50vmin;
 }
 .main-heading {
   margin-bottom: 25px;
@@ -45,7 +49,7 @@
 }
 .main-heading > span,
 .hero-subheading > span {
-  color: #fad02c !important;
+  color: var(--primary) !important;
 }
 .hero-subheading {
   font-family: "Ubuntu", sans-serif;

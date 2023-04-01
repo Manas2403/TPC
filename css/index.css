@@ -1,3 +1,7 @@
+:root{
+  --primary: #fad02c;
+}
+
 * {
   margin: 0;
   padding: 0;
