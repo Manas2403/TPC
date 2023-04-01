@@ -1,4 +1,4 @@
-:root{
+:root {
   --primary: #fad02c;
 }
 
@@ -7,4 +7,5 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
 }

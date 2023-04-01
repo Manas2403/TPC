@@ -1,11 +1,9 @@
 .hero-container {
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(7, 15, 41, 0.8549019607843137),
       rgba(25, 34, 61, 0.623) 20%,
       rgba(37, 71, 140, 0.39),
-      hsla(0, 0%, 100%, 0)
-    ),
+      hsla(0, 0%, 100%, 0)),
     url("../assets/heroBackground.jpg");
 
   background-size: cover !important;
@@ -39,6 +37,7 @@
   max-width: 30vmin;
   max-height: 30vmin;
 }
+
 .main-heading {
   margin-bottom: 25px;
   padding-left: 8px;
@@ -48,10 +47,12 @@
   color: #fff;
   font-size: calc(28px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
 }
-.main-heading > span,
-.hero-subheading > span {
+
+.main-heading>span,
+.hero-subheading>span {
   color: var(--primary) !important;
 }
+
 .hero-subheading {
   font-weight: 400;
   color: #fff;
@@ -59,6 +60,7 @@
   margin-bottom: 60px;
   padding-top: 20px;
 }
+
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -93,10 +95,12 @@
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
     transform: rotate(45deg) translate(10px, 10px);
   }
+
   100% {
     opacity: 0;
   }
@@ -106,6 +110,7 @@
   .hero-subheading {
     font-size: 30px;
   }
+
   .main-heading {
     font-size: 40px;
   }
@@ -131,6 +136,7 @@
   list-style-type: none;
   /* border-radius: 4px; */
 }
+
 .recruiter-list li img {
   height: 150px;
   width: 150px;
@@ -140,6 +146,7 @@
   box-shadow: 0 0 0 2px #fff;
   transition: transform 0.3s ease-in-out;
 }
+
 .recruiter-list li img:hover {
   transform: scale(1.1);
 }
@@ -148,6 +155,7 @@
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(calc(-100% - var(--gap)));
   }
@@ -156,6 +164,7 @@
 .recruiter-list {
   animation: scroll 10s linear infinite;
 }
+
 .recruiters:hover .recruiter-list {
   animation-play-state: paused;
 }
@@ -168,6 +177,7 @@ img {
   from {
     transform: translateX(calc(100% + var(--gap)));
   }
+
   to {
     transform: translateX(0);
   }
@@ -183,6 +193,7 @@ img {
   flex-shrink: 0;
   user-select: none;
 }
+
 .line {
   height: 1px;
   opacity: 0.7;
@@ -190,4 +201,110 @@ img {
   background-color: #000;
   margin-top: 32px;
   margin-left: 25%;
+}
+
+/* ====================================== */
+/* ========= Placement Section ========== */
+/* ====================================== */
+
+.placement_container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.placement_content {
+  width: fit-content;
+}
+
+.building_image {
+  width: 40vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.building_image img {
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+
+.placement_name:before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 5px;
+  background-color: var(--primary);
+}
+
+.placement_name {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.placement_heading {
+  margin-top: 1.2vmax;
+  font-family: sans-serif;
+  font-weight: 790;
+  font-size: 3.1vmax;
+}
+
+.placement_des {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.3rem;
+  opacity: 0.9;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 2vmax;
+}
+
+.placement_contact_heading1 {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background: rgb(var(--primary));
+  padding: 0.8rem 1.7rem;
+  font-size: 0.8rem;
+  color: rgb(27, 18, 7);
+  background-color: #FAD02C;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 0.4rem;
+  border: 2px solid rgb(var(--primary));
+  transition: padding 0.5s;
+  cursor: pointer;
+}
+
+.placement_contact_heading1:hover {
+  padding: 1rem 2rem;
+}
+
+svg {
+  margin-left: 0.5vmax;
+}
+
+.placement_contact_heading2 {
+  margin-left: 2vmax;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background: transparent;
+  padding: 1.5rem 2rem;
+  font-size: 0.8rem;
+  color: rgb(var(--text));
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  border-radius: 0.4rem;
+  border: none;
+  transition: font-size 0.3s;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+
+.placement_contact_heading2:hover {
+  font-size: 0.83rem;
 }
