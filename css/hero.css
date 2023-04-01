@@ -6,7 +6,7 @@
       rgba(37, 71, 140, 0.39),
       hsla(0, 0%, 100%, 0)
     ),
-    url(/assets/heroBackground.jpg) 50% / cover no-repeat;
+    url("../assets/heroBackground.jpg") 50% / cover no-repeat;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   background-size: auto;
