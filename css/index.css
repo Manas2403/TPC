@@ -1,6 +1,6 @@
 :root {
-    --primary: #fad02c;
-    --highlight-bg: #fad02c1f;
+    --primary: #FAD02C;
+    --highlight-bg: #FAD02C1f;
 }
 
 * {
@@ -64,6 +64,10 @@ html:is([data-scroll="0"]) .nav-cont-wrapper {
     gap: 1rem;
 }
 
+.mobile-heading {
+    display: none;
+}
+
 .nav-logo>img {
     width: 4rem;
     height: 100%;
@@ -106,9 +110,31 @@ li {
     display: list-item;
 }
 
+@media screen and (max-width: 920px) {
+    .nav-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mobile-heading {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .desktop-heading {
+        display: none;
+    }
+}
+
 /* ====================================== */
 /* =============== Footer =============== */
 /* ====================================== */
+
+.footer-section {
+    background-color: var(--highlight-bg);
+}
+
 .footer_container {
     width: 100%;
     padding-left: 15px;
