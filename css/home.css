@@ -290,7 +290,7 @@ img {
 /* ====================================== */
 
 .placement_wrapper {
-  background-color: #fad12c1f;
+  background-color: var(--highlight-bg);
   padding: 2rem 0;
   display: flex;
   justify-content: center;
