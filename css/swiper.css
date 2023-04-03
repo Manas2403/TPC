@@ -1,40 +1,41 @@
-.message-swiper-container{
-    background-color: white;
-    margin-top: 6rem;
+.message-swiper-container {
+  background-color: white;
+  margin-top: 6rem;
 }
 
-.photo-and-content{
-    display: flex;
-    /* flex-direction: row; */
-    justify-content: flex-start;
-    /* background-color: greenyellow; */
-    width: 100%;
-    /* height: 100px; */
-    overflow: hidden;
+.photo-and-content {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-start;
+  /* background-color: greenyellow; */
+  width: 100%;
+  /* height: 100px; */
+  overflow: hidden;
 }
 
-.person-photo{
-    /* display: inline-block; */
-    width: 30%;
-    height: 100%;
-    /* background-color: red; */
+.person-photo {
+  /* display: inline-block; */
+  width: 30%;
+  height: 100%;
+  /* background-color: red; */
 }
 
-.person-content{
-    /* display: inline-block; */
-    width: 40%;
-    height: 100%;
-    flex-grow: 1;
-    /* background-color: blue; */
+.person-content {
+  /* display: inline-block; */
+  width: 40%;
+  height: 100%;
+  flex-grow: 1;
+  /* background-color: blue; */
 }
 
 .owl-carousel .owl-item img {
   display: block;
   /* width: 17%; */
-  
+  height: 80%;
+  width: 80%;
   /* float: ; */
   /* border: 5px solid #fff; */
-  /* border-radius: 20px; */
+  border-radius: 20px;
   margin: auto;
   /* margin-left: 54px;
   margin-right: 35px; */
@@ -56,7 +57,7 @@
 .testimonial-content.quote {
   padding: 17px 55px;
 }
-.et_right_sidebar #main-content .container:before{
+.et_right_sidebar #main-content .container:before {
   display: none;
 }
 #main-content .container {
@@ -68,33 +69,34 @@ i.fa.fa-quote-left {
   color: #999;
 }
 
-.official-name{
+.official-name {
   text-align: left;
   font-size: 4.5rem;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 3rem;
   letter-spacing: -0.03em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.official-message{
+.official-message {
   text-align: justify;
   display: block;
   font-size: 1.1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #999;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
 
-.read-more-button{
+.read-more-button {
   margin-top: 0.5rem;
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  background: #007FFF;
+  background: var(--primary);
   padding: 1.15rem 1.55rem;
   font-size: 0.8rem;
   color: white;
@@ -102,16 +104,34 @@ i.fa.fa-quote-left {
   font-weight: bold;
   border-radius: 0.4rem;
   border: 0px solid rgb(var(--primary));
-  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, box-shadow 0.3s ease 0s;
   backface-visibility: hidden;
   will-change: transform;
   cursor: pointer;
 }
+.read-more-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .official-name {
-      font-size: 4rem;
-      margin-bottom: 2rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 1000px) {
+  .owl-carousel .owl-item img {
+    display: none;
+  }
+  .person-photo {
+    display: none;
+  }
+  .cell-right {
+    margin-right: 40px;
+    margin-left: 20px;
+    padding-top: 35px;
+    padding-bottom: 20px;
   }
 }
 
