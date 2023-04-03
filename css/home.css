@@ -203,7 +203,7 @@ img {
 }
 
 .post {
-  flex: 1 0 24rem;
+  flex: 1 0 min(24rem, 100%);
   background: #fff;
   margin: 1rem;
   border-radius: 2px;
@@ -391,5 +391,10 @@ img {
 @media screen and (max-width: 900px) {
   .building_image {
     display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .placement_des {
+    font-size: 1rem;
   }
 }
