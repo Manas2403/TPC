@@ -1,0 +1,26 @@
+.about_campus {
+    font-size: 40px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
+}
+.campus_container_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    margin: 1rem 2rem;
+}
+.campus_desc_1 {
+    flex: 1 1 0%;
+    font-size: 1rem;
+    text-align: justify;
+    opacity: 0.9;
+    margin: 20px 30px auto auto;
+}
