@@ -1,0 +1,79 @@
+.achievements_heading {
+    font-size: 40px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
+}
+img {
+    height: 150px;
+}
+.achievements-section {
+    font-size: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
+.post__content--body {
+    color: #999;
+    font-size: 1rem;
+    text-align: justify;
+    padding-top: 2rem;
+}
+.post {
+    flex: 1 0 min(20rem, 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    margin: 1rem;
+    border-radius: 2px;
+    font-size: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 1px rgb(12 0 46 / 4%);
+    border-radius: 0.6rem;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem;
+}
+
+.post:hover {
+    box-shadow: 0 2px 4px 5px rgb(12 0 46 / 4%);
+    transform: scale(1.02);
+}
+
+.post__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post__toolbar {
+    position: relative;
+}
+.post__content--body {
+    color: #999;
+    font-size: 1rem;
+    text-align: justify;
+    padding-top: 2rem;
+}
+@media (max-width: 448px) {
+    .grid {
+        padding: 0;
+    }
+
+    .post {
+        margin: 0;
+        flex-direction: column;
+    }
+}
