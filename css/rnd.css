@@ -1,0 +1,338 @@
+
+.desc{
+  font-size: 1.1rem;
+ margin-left: 2rem;
+ margin-right: 2rem;
+  margin-top: 2rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.projects{
+  font-size: 1.1rem;
+ margin-left: 2rem;
+ margin-right: 2rem;
+  margin-top: 2rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+li:before {
+  content: "•"; /*Instead of ". " */
+  counter-increment: level1;
+}
+
+
+li{
+    padding-left: 2rem;
+}
+
+
+.post {
+  flex: 1 0 min(24rem, 100%);
+  background: #fff;
+  margin: 1rem;
+  border-radius: 2px;
+  min-height: 250px;
+  font-size: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 2px 4px 1px rgb(12 0 46 / 4%);
+  border-radius: 0.6rem;
+  transition: all 0.3s ease-in-out;
+  border: 0.5px solid var(--primary);
+}
+
+.post:hover {
+  box-shadow: 0 2px 4px 5px rgba(11, 109, 255, 0.04);
+  transform: scale(1.02);
+}
+
+.post__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post__toolbar {
+  position: relative;
+}
+
+.post__content {
+  padding: 1rem;
+  text-align: center;
+}
+
+.post__content--title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.post__content--body {
+  color: #999;
+  font-size: 1rem;
+  text-align: justify;
+  padding-top: 0.7rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.reduce-margin-top{
+  transform: translateY(-10px);
+}
+
+@media (max-width: 716px) {
+  .desc{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+}
+
+@media (max-width: 448px) {
+  .recruiter-grid {
+    padding: 0;
+  }
+
+  .post {
+    margin: 0;
+    border: none;
+  }
+
+  .desc{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+}
+
+@keyframes scroll-abs {
+  from {
+    transform: translateX(calc(100% + var(--gap)));
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.line {
+  height: 1px;
+  opacity: 0.7;
+  width: 50%;
+  background-color: #000;
+  margin-top: 32px;
+  margin-left: 25%;
+}
+
+
+/* Styling for Accordian */
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  padding-top: 0;
+  width: 100%;
+}
+
+
+@media (max-width: 448px) {
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 23rem;
+}
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion .accordion-item button[aria-expanded=true] {
+  border-bottom: 1px solid #03b5d2;
+} 
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+.accordion button[aria-expanded=true] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded=true] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded=true] + .accordion-content {
+  opacity: 1;
+  max-height: fit-content;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+.course-details {
+  font-size: 40px;
+  text-align: -webkit-center;
+  justify-content: center;
+  display: flow-root;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  font-weight: bold;
+  color: var(--primary) !important;
+}
+
+
+/* Style for course sections */
+.courses {
+  margin-bottom: 30px;
+}
+
+.courses p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.courses ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.courses ul li {
+  margin-bottom: 5px;
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 767px) {
+  .courses {
+    width: 100%;
+  }
+}
+
+.accordion-item {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.accordion-title {
+  font-size: 24px;
+  color: #00a7e1;
+}
+
+.accordion-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-content li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+
+.course-item{
+  flex: 1 0 min(24rem, 100%);
+  background: #fff;
+  margin: 1rem;
+  border-radius: 2px;
+  padding-top: 2rem;
+  font-size: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 2px 4px 1px rgb(12 0 46 / 4%);
+  border-radius: 0.6rem;
+  transition: all 0.3s ease-in-out;
+  border: 0.5px solid var(--primary);
+}
+
+
+.course-item .title{
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    width: 100%;
+  }
+  .course-details{
+    font-size: 40px;
+  }
+  .accordion-title{
+  font-size: 1.3rem;
+}
+}
