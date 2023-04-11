@@ -216,25 +216,40 @@ li{
   height: 10px;
   background: currentColor;
 }
+
+
 .accordion button[aria-expanded=true] {
   color: #03b5d2;
 }
+
 .accordion button[aria-expanded=true] .icon::after {
   width: 0;
 }
+
 .accordion button[aria-expanded=true] + .accordion-content {
   opacity: 1;
-  max-height: fit-content;
-  transition: all 200ms linear;
+  max-height: 5000px;
+  height: auto;
+  transition: max-height 2s ease-in-out; 
   will-change: opacity, max-height;
 }
+
+.accordion button[aria-expanded=false] + .accordion-content {
+  height: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s linear, height 2s linear, overflow 0.2s linear;
+  will-change: height, overflow, max-height;
+}
+
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 200ms linear, max-height 200ms linear;
+  transition: max-height 2s ease-in-out, opacity 0.2s linear;
   will-change: opacity, max-height;
 }
+
 .accordion .accordion-content p {
   font-size: 1rem;
   font-weight: 300;
