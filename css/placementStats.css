@@ -1,43 +1,50 @@
-.placement-container {
-  /* max-width: 90%; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.page-container {
+    /* background-color: var(--highlight-bg); */
+    /* background-color: #fbfbf8; */
+    padding-bottom: 16px;
+    margin-top: 5rem;
+}
 
-  /* width: 80%; */
+.placement-container {
+    /* max-width: 90%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* width: 80%; */
 }
 .bar-graph-container {
-  max-width: 1200px;
-  width: 100%;
+    max-width: 1200px;
+    width: 100%;
 
-  background-color: var(--highlight-bg);
-  padding: 16px;
-  border-radius: 8px;
-  margin: 16px;
+    background-color: var(--highlight-bg);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px;
 }
 .placement-stats-heading {
-  text-align: center;
-  color: var(--primary);
-  font-size: 2rem;
+    text-align: center;
+    color: var(--primary);
+    font-size: 2rem;
 }
 #averagePlacement {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 .demographics-container {
-  width: 80%;
-  padding: 32px;
-  height: fit-content;
+    width: 80%;
+    padding: 32px;
+    height: fit-content;
 }
 #demographicsPG,
 #demographicsUG {
-  margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 @media screen and (max-width: 800px) {
-  .demographics-container {
-    width: 100%;
-    /* padding: 32px; */
-    padding: 0px;
-    height: fit-content;
-  }
+    .demographics-container {
+        width: 100%;
+        /* padding: 32px; */
+        padding: 0px;
+        height: fit-content;
+    }
 }
