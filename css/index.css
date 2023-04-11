@@ -1,6 +1,6 @@
 :root {
-  --primary: #00a7e1;
-  --highlight-bg: #00a7e11f;
+  --primary: #ffb411;
+  --highlight-bg: #ffb4111f;
 }
 
 * {
@@ -84,7 +84,7 @@ html:is([data-scroll="0"]) .nav-cont-wrapper {
   color: #3f3f3f;
 }
 
-html:is([data-scroll="0"]) .desktop-heading{
+html:is([data-scroll="0"]) .desktop-heading {
   color: white;
 }
 
