@@ -1,3 +1,22 @@
+const debounce = (fn) => {
+  let frame;
+  return (...params) => {
+    if (frame) {
+      cancelAnimationFrame(frame);
+    }
+    frame = requestAnimationFrame(() => {
+      fn(...params);
+    });
+  };
+};
+
+const storeScroll = () => {
+  document.documentElement.dataset.scroll = window.scrollY;
+};
+
+document.addEventListener("scroll", debounce(storeScroll), { passive: true });
+storeScroll();
+
 window.addEventListener("load", () => {
   const navContWrapper = document.querySelector(".nav-cont-wrapper");
   const heroContainer = document.querySelector(".hero-container");
