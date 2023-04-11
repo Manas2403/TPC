@@ -1,73 +1,80 @@
 .page-container {
-  /* background-color: var(--highlight-bg); */
-  /* background-color: #fbfbf8; */
-  padding-bottom: 16px;
+    /* background-color: var(--highlight-bg); */
+    /* background-color: #fbfbf8; */
+    padding-bottom: 16px;
+    margin-top: 5rem;
 }
 
 .placement-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  flex-direction: column;
-  text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    flex-direction: column;
+    text-align: justify;
 }
 .placement-row {
-  max-width: 1200px;
-  background-color: var(--highlight-bg);
-  padding: 16px;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  margin-top: 16px;
-  border-radius: 16px;
+    max-width: 1200px;
+    background-color: var(--highlight-bg);
+    padding: 16px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 16px;
+    border-radius: 16px;
 }
 .placement-heading {
-  text-align: center !important;
-  font-size: 40px;
-  width: 100%;
-  /* display: block; */
-  /* text-align: -webkit-center; */
-  /* justify-content: center; */
-  /* display: flow-root; */
-  margin-bottom: 16px;
-  font-weight: bold;
-  color: var(--primary) !important;
+    text-align: center !important;
+    font-size: 40px;
+    width: 100%;
+    /* display: block; */
+    /* text-align: -webkit-center; */
+    /* justify-content: center; */
+    /* display: flow-root; */
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: var(--primary) !important;
 }
 .horizontal-align {
-  margin-top: 16px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: space-between;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
 }
 .horizontal-row {
-  max-width: 592px;
-  background-color: var(--highlight-bg);
-  padding: 16px;
-  margin-top: 16px;
-  border-radius: 16px;
-  width: 100%;
+    max-width: 592px;
+    background-color: var(--highlight-bg);
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 16px;
+    width: 100%;
 }
 .placement-content {
-  padding: 16px;
+    padding: 16px;
 }
 .placement-content h5 {
-  color: var(--primary);
-  font-size: 1.1rem;
-  text-align: center;
+    color: var(--primary);
+    font-size: 1.1rem;
+    text-align: center;
 }
 .placement-content p {
-  margin-top: 8px;
-  margin-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.placement-content li::marker {
+    color: var(--primary);
 }
 @media screen and (max-width: 1300px) {
-  /* .horizontal-align {
+    /* .horizontal-align {
     flex-direction: column;
   } */
-  .horizontal-row {
-    margin-top: 0;
-    max-width: 1200px;
-  }
+    .horizontal-row {
+        margin-top: 0;
+        max-width: 1200px;
+    }
+}
+.col li::marker {
+    color: var(--primary);
 }
