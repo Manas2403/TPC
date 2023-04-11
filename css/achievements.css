@@ -39,7 +39,7 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background: #fff;
     margin: 1rem;
     border-radius: 2px;

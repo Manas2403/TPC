@@ -1,4 +1,9 @@
 
+.my-big-ass-div{
+  max-width: 1200px;
+  margin: auto;
+}
+
 .desc{
   font-size: 1.1rem;
  margin-left: 2rem;
