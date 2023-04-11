@@ -22,13 +22,13 @@
   margin-bottom: 2rem;
 }
 
-li:before {
+.projects_ul li:before {
   content: "•"; /*Instead of ". " */
   counter-increment: level1;
 }
 
 
-li{
+.projects_ul li{
     padding-left: 2rem;
 }
 
