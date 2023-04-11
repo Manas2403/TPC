@@ -18,6 +18,11 @@
     font-weight: bold;
     color: var(--primary) !important;
 }
+.academics_desc {
+    padding: 0 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
 .exchange {
     font-size: 2rem;
     max-width: 1600px;
@@ -51,8 +56,3 @@
     font-weight: bold;
     margin-right: 2em;
 } */
-@media (max-width: 448px) {
-    .exchange {
-        padding: 0;
-    }
-}
