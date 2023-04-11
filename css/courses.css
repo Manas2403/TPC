@@ -202,17 +202,16 @@ img {
 .container {
   margin: 0 auto;
   padding: 4rem;
-  width: 70rem;
+  width: 100%;
 }
 
-
-@media (max-width: 448px) {
+@media (max-width: 600px) {
 .container {
   margin: 0 auto;
   padding: 1rem;
-  width: 23rem;
 }
 }
+
 
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
@@ -275,30 +274,50 @@ img {
   height: 10px;
   background: currentColor;
 }
+
+.accordion-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .accordion button[aria-expanded=true] {
   color: #03b5d2;
 }
+
 .accordion button[aria-expanded=true] .icon::after {
   width: 0;
 }
+
 .accordion button[aria-expanded=true] + .accordion-content {
   opacity: 1;
-  max-height: fit-content;
-  transition: all 200ms linear;
+  max-height: 5000px;
+  height: auto;
+  transition: max-height 2s ease-in-out; 
   will-change: opacity, max-height;
 }
+
+.accordion button[aria-expanded=false] + .accordion-content {
+  height: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s linear, height 2s linear, overflow 0.2s linear;
+  will-change: height, overflow, max-height;
+}
+
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 200ms linear, max-height 200ms linear;
+  transition: max-height 2s ease-in-out, opacity 0.2s linear;
   will-change: opacity, max-height;
 }
+
 .accordion .accordion-content p {
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
 }
+
 
 .course-details {
   font-size: 40px;
@@ -342,7 +361,8 @@ img {
 
 .accordion-item {
   margin: 0 auto;
-  max-width: 800px;
+  padding-right: 2rem;
+  padding-left: 2rem;
   text-align: center;
 }
 
@@ -367,6 +387,7 @@ img {
   flex: 1 0 min(24rem, 100%);
   background: #fff;
   margin: 1rem;
+  width: 5rem;
   border-radius: 2px;
   padding-top: 2rem;
   font-size: 2rem;
@@ -393,5 +414,18 @@ img {
   }
   .accordion-title{
   font-size: 1.3rem;
+}
+}
+
+@media (max-width: 500px) {
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 23rem;
+}
+.course-item{
+  font-size: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 }
