@@ -1,0 +1,55 @@
+.academics_heading {
+    font-size: 40px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
+}
+.academics_subheading {
+    font-size: 20px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
+}
+.exchange {
+    font-size: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.academic_grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* .exchange_container ul {
+    list-style-type: none;
+} */
+.exchange_container li {
+    color: #999;
+    font-size: 1rem;
+}
+.exchange_container li::marker {
+    color: var(--primary);
+}
+/* .exchange_container li::before {
+    content: "\2022";
+    color: var(--primary);
+    font-size: 1.2rem;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 2em;
+} */
+@media (max-width: 448px) {
+    .exchange {
+        padding: 0;
+    }
+}
