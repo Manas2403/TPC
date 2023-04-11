@@ -1,33 +1,23 @@
-body{
-    background-color: #F6F9FF;
-}
-.brochure{
+.brochure {
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-color: #F6F9FF;
+    background-color: #f6f9ff;
 }
-.brochure-heading{
-    display: flex;
+.achievements_heading {
+    font-size: 40px;
+    text-align: -webkit-center;
     justify-content: center;
-    align-items: center;
-    height: 4rem;
-    width: 80%;
-    background-color: #012970;
-    text-align: center;
-    color: white;
-    margin: 1.5rem;
-    border-radius: 5px;
-    box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.1);
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
 }
-.brochure-heading h2{
-    font-size: 1.7rem;
-    font-weight: 400;
-    margin: 1rem;
-}
-.brochure-content{
+.brochure-content {
+    margin-top: 1rem;
     height: 100vh;
     background-color: white;
     width: 80%;
@@ -37,8 +27,13 @@ body{
     border-radius: 5px;
     box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.1);
 }
-.brochure-content a{
+.brochure-content a {
     margin: 2rem;
     color: black;
     font-size: large;
+}
+.pdf {
+    max-width: 800px;
+    width: 70vw;
+    height: 70vh;
 }
