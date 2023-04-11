@@ -8,8 +8,19 @@
     font-weight: bold;
     color: var(--primary) !important;
 }
+.achievements_subheading {
+    font-size: 20px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
+    padding: 0 2rem;
+}
 img {
-    height: 150px;
+    height: 50px;
 }
 .achievements-section {
     font-size: 2rem;
@@ -22,17 +33,12 @@ img {
     padding: 0 2rem;
     margin-top: 2rem;
 }
-.post__content--body {
-    color: #999;
-    font-size: 1rem;
-    text-align: justify;
-    padding-top: 2rem;
-}
+
 .post {
     flex: 1 0 min(20rem, 100%);
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background: #fff;
@@ -45,6 +51,7 @@ img {
     border-radius: 0.6rem;
     transition: all 0.3s ease-in-out;
     padding: 1rem;
+    gap: 8px;
 }
 
 .post:hover {
@@ -63,9 +70,8 @@ img {
 }
 .post__content--body {
     color: #999;
-    font-size: 1rem;
-    text-align: justify;
-    padding-top: 2rem;
+    font-size: 0.8rem;
+    text-align: left;
 }
 @media (max-width: 448px) {
     .grid {
