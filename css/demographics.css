@@ -14,19 +14,7 @@
 
   /* width: 80%; */
 }
-.bar-graph-container {
-  max-width: 1200px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: var(--highlight-bg);
-  padding: 16px;
-  border-radius: 8px;
-  margin: 16px;
-}
+
 .placement-stats-heading {
   text-align: center;
   color: var(--primary);
@@ -36,6 +24,10 @@
   margin-bottom: 16px;
 }
 .demographics-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 80%;
   padding: 32px;
   height: fit-content;
@@ -45,7 +37,6 @@
 #demographicsUG {
   margin-bottom: 16px;
 }
-
 
 .chart {
   display: inline-block;
