@@ -1,35 +1,35 @@
-
-.my-big-ass-div{
+.my-big-ass-div {
   max-width: 1200px;
   margin: auto;
 }
 
-.desc{
+.desc {
   font-size: 1.1rem;
- margin-left: 2rem;
- margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 2rem;
   text-align: justify;
   margin-bottom: 2rem;
 }
 
-.projects{
+.projects {
   font-size: 1.1rem;
- margin-left: 2rem;
- margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 2rem;
   text-align: justify;
   margin-bottom: 2rem;
 }
 
 .projects_ul li:before {
-  content: "•"; /*Instead of ". " */
+  content: "•";
+  /*Instead of ". " */
   counter-increment: level1;
 }
 
 
-.projects_ul li{
-    padding-left: 2rem;
+.projects_ul li {
+  padding-left: 2rem;
 }
 
 
@@ -83,15 +83,15 @@
   text-align: center;
 }
 
-.reduce-margin-top{
+.reduce-margin-top {
   transform: translateY(-10px);
 }
 
 @media (max-width: 716px) {
-  .desc{
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
+  .desc {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 
 }
 
@@ -105,10 +105,10 @@
     border: none;
   }
 
-  .desc{
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
+  .desc {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
 
 @keyframes scroll-abs {
@@ -144,6 +144,7 @@
 
 /* Styling for Accordian */
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+
 .container {
   margin: 0 auto;
   padding: 4rem;
@@ -153,19 +154,21 @@
 
 
 @media (max-width: 448px) {
-.container {
-  margin: 0 auto;
-  padding: 1rem;
-  width: 23rem;
-}
+  .container {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 23rem;
+  }
 }
 
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
+
 .accordion .accordion-item button[aria-expanded=true] {
   border-bottom: 1px solid #03b5d2;
-} 
+}
+
 .accordion button {
   position: relative;
   display: block;
@@ -179,18 +182,24 @@
   background: none;
   outline: none;
 }
-.accordion button:hover, .accordion button:focus {
+
+.accordion button:hover,
+.accordion button:focus {
   cursor: pointer;
   color: #03b5d2;
 }
-.accordion button:hover::after, .accordion button:focus::after {
+
+.accordion button:hover::after,
+.accordion button:focus::after {
   cursor: pointer;
   color: #03b5d2;
   border: 1px solid #03b5d2;
 }
+
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
 }
+
 .accordion button .icon {
   display: inline-block;
   position: absolute;
@@ -201,6 +210,7 @@
   border: 1px solid;
   border-radius: 22px;
 }
+
 .accordion button .icon::before {
   display: block;
   position: absolute;
@@ -211,6 +221,7 @@
   height: 2px;
   background: currentColor;
 }
+
 .accordion button .icon::after {
   display: block;
   position: absolute;
@@ -231,15 +242,15 @@
   width: 0;
 }
 
-.accordion button[aria-expanded=true] + .accordion-content {
+.accordion button[aria-expanded=true]+.accordion-content {
   opacity: 1;
   max-height: 5000px;
   height: auto;
-  transition: max-height 2s ease-in-out; 
+  transition: max-height 2s ease-in-out;
   will-change: opacity, max-height;
 }
 
-.accordion button[aria-expanded=false] + .accordion-content {
+.accordion button[aria-expanded=false]+.accordion-content {
   height: 0;
   max-height: 0;
   overflow: hidden;
@@ -324,7 +335,7 @@
 }
 
 
-.course-item{
+.course-item {
   flex: 1 0 min(24rem, 100%);
   background: #fff;
   margin: 1rem;
@@ -340,7 +351,7 @@
 }
 
 
-.course-item .title{
+.course-item .title {
   font-size: 1.5rem;
   color: var(--primary);
 }
@@ -349,10 +360,12 @@
   .container {
     width: 100%;
   }
-  .course-details{
+
+  .course-details {
     font-size: 40px;
   }
-  .accordion-title{
-  font-size: 1.3rem;
-}
+
+  .accordion-title {
+    font-size: 1.3rem;
+  }
 }
