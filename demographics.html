@@ -36,17 +36,17 @@
     <title>TPC | IIITA</title>
     <link
       rel="shortcut icon"
-      href="./assets/InstituteLogo.webp"
+      href="./assets/InstituteLogo.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./css/placementStats.css" />
+    <link rel="stylesheet" href="./css/demographics.css" />
   </head>
   <body>
     <nav class="nav-cont-wrapper opacity-1">
       <div class="nav-cont">
         <a href="index.html">
           <div class="nav-logo">
-            <img src="./assets/InstituteLogo.webp" alt="logo" />
+            <img src="./assets/InstituteLogo.png" alt="logo" />
             <h1 class="desktop-heading">
               <span class="color-primary">Training</span> and
               <span class="color-primary">Placement</span> Cell
@@ -134,19 +134,13 @@
 
     <section class="page-container">
       <div class="placement-container">
-        <h3 class="placement-stats-heading">Placement Statistics</h3>
-        <div class="bar-graph-container">
+        <h3 class="placement-stats-heading">Demographics</h3>
+        <div class="demographics-container">
           <div class="chart">
-            <canvas id="averagePlacement" class="bar-graph"></canvas>
+            <canvas id="demographicsPG"></canvas>
           </div>
           <div class="chart">
-            <canvas id="placementPercentage" class="bar-graph"></canvas>
-          </div>
-          <div class="chart">
-            <canvas id="highestPackage" class="bar-graph"></canvas>
-          </div>
-          <div class="chart">
-            <canvas id="horizontalBarChartCanvas"></canvas>
+            <canvas id="demographicsUG"></canvas>
           </div>
         </div>
       </div>
@@ -254,6 +248,6 @@
 
     <script src="./js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-    <script src="./js/placementStats.js" defer></script>
+    <script src="./js/demographics.js" defer></script>
   </body>
 </html>

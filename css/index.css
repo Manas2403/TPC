@@ -1,6 +1,6 @@
 :root {
-  --primary: #00a7e1;
-  --highlight-bg: #00a7e11f;
+  --primary: #ffb411;
+  --highlight-bg: #ffb4111f;
 }
 
 * {
@@ -84,7 +84,7 @@ html:is([data-scroll="0"]) .nav-cont-wrapper {
   color: #3f3f3f;
 }
 
-html:is([data-scroll="0"]) .desktop-heading{
+html:is([data-scroll="0"]) .desktop-heading {
   color: white;
 }
 
@@ -206,9 +206,11 @@ html:is([data-scroll="0"]) .mobile-heading {
   padding: 0.5rem 2rem;
   width: 100%;
   border: 0.5px solid var(--highlight-bg);
-  font-size: 0.5rem;
   font-weight: 500;
   color: var(--primary);
+}
+.nav-collapse-item > a {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 1060px) {
