@@ -180,6 +180,7 @@ img {
     font-size: 2rem;
     max-width: 1600px;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
 .recruiter-heading {
@@ -346,7 +347,7 @@ img {
     margin-top: 1.2vmax;
     font-family: sans-serif;
     font-weight: 790;
-    font-size: 3.1vmax;
+    font-size: 2vmax;
 }
 
 .placement_des {
@@ -404,11 +405,6 @@ img {
 /* ========== Carousel Section ========== */
 /* ====================================== */
 
-.message-swiper-container {
-    background-color: white;
-    margin-top: 6rem;
-}
-
 .photo-and-content {
     display: flex;
     /* flex-direction: row; */
@@ -448,24 +444,10 @@ img {
     margin-top: 8rem;
 }
 
-.testimonial-item.equal-height.style-6 {
-    background-color: white;
-    border-radius: 10px;
-    margin: 10px;
-}
-
 .cell-right {
     margin-right: 80px;
     padding-top: 35px;
     padding-bottom: 20px;
-}
-
-.testimonial-name {
-    font-weight: 600;
-}
-
-.testimonial-content.quote {
-    padding: 17px 55px;
 }
 
 .et_right_sidebar #main-content .container:before {
