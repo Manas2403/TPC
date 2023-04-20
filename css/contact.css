@@ -11,6 +11,7 @@
   padding-bottom: 60px;
   padding-top: 4rem;
 }
+
 .contact_heading {
   font-size: 3rem;
   text-align: -webkit-center;
@@ -22,6 +23,7 @@
   color: var(--primary) !important;
   padding-top: 2rem;
 }
+
 .contact-banner h1 {
   font-size: 3.3rem;
   font-weight: 700;
@@ -57,17 +59,15 @@
 
 .administration-section {
   width: 100%;
-  min-height: 100vh;
   display: flex;
   background-color: white;
   color: black;
-  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
   box-shadow: inset 0 1000px 0 0 transparent;
   position: relative;
-  padding-bottom: 60px;
-  padding-top: 4rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .administration-section h1 {
@@ -79,10 +79,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* align-items: center; */
-  justify-content: center;
-  margin-top: 3rem;
-  margin-left: 2rem;
 }
 
 .cards {
@@ -95,6 +91,8 @@
   flex-direction: column;
   box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(12 0 46 / 4%);
 }
 
 .cards h4 {
@@ -218,7 +216,7 @@ input {
     padding: 0;
   }
 
-  .card-section{
+  .card-section {
     margin-left: 0;
   }
 }
