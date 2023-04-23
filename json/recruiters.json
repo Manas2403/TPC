@@ -1,0 +1,100 @@
+{
+    "data" : [
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.webp",
+            "companyName" : "Microsoft",
+            "companyLink" : "https://www.microsoft.com/en-us/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png",
+            "companyName" : "Google",
+            "companyLink" : "https://www.google.com/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/2048px-Facebook_Logo_%282019%29.png",
+            "companyName" : "Facebook",
+            "companyLink" : "https://www.facebook.com/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.webp",
+            "companyName" : "Microsoft",
+            "companyLink" : "https://www.microsoft.com/en-us/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png",
+            "companyName" : "Google",
+            "companyLink" : "https://www.google.com/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/2048px-Facebook_Logo_%282019%29.png",
+            "companyName" : "Facebook",
+            "companyLink" : "https://www.facebook.com/"
+        },
+        
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.webp",
+            "companyName" : "Microsoft",
+            "companyLink" : "https://www.microsoft.com/en-us/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png",
+            "companyName" : "Google",
+            "companyLink" : "https://www.google.com/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/2048px-Facebook_Logo_%282019%29.png",
+            "companyName" : "Facebook",
+            "companyLink" : "https://www.facebook.com/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.webp",
+            "companyName" : "Microsoft",
+            "companyLink" : "https://www.microsoft.com/en-us/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png",
+            "companyName" : "Google",
+            "companyLink" : "https://www.google.com/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/2048px-Facebook_Logo_%282019%29.png",
+            "companyName" : "Facebook",
+            "companyLink" : "https://www.facebook.com/"
+        },
+        
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.webp",
+            "companyName" : "Microsoft",
+            "companyLink" : "https://www.microsoft.com/en-us/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png",
+            "companyName" : "Google",
+            "companyLink" : "https://www.google.com/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/2048px-Facebook_Logo_%282019%29.png",
+            "companyName" : "Facebook",
+            "companyLink" : "https://www.facebook.com/"
+        },
+        
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.webp",
+            "companyName" : "Microsoft",
+            "companyLink" : "https://www.microsoft.com/en-us/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png",
+            "companyName" : "Google",
+            "companyLink" : "https://www.google.com/"
+        },
+        {
+            "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/2048px-Facebook_Logo_%282019%29.png",
+            "companyName" : "Facebook",
+            "companyLink" : "https://www.facebook.com/"
+        }
+        
+        
+        
+    ]
+}
