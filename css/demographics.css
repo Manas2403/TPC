@@ -42,14 +42,27 @@
   display: inline-block;
   height: 550px;
   width: 550px;
-}
-@media screen and (max-width: 1200px) {
-  .chart {
-    height: 500px;
-    width: 500px;
-  }
+  margin: 8px;
 }
 
+@media screen and (max-width: 1550px) {
+  .chart {
+    height: 450px;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .chart {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .chart {
+    height: 400px;
+    width: 400px;
+  }
+}
 @media screen and (max-width: 800px) {
   .demographics-container {
     width: 100%;
