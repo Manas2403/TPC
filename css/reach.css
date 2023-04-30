@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+
 body {
   font-family: "UbuntuRegular";
 }
+
 .map {
   border: 4px solid var(--primary);
   border-radius: 16px !important;
 }
+
 .body h5 {
   color: var(--primary);
   font-family: "Poppins", sans-serif;
@@ -17,6 +20,7 @@ h5 {
   line-height: 110%;
   margin: 1.0933333333rem 0 0.656rem 0;
 }
+
 .para {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1.3rem;
@@ -25,6 +29,7 @@ h5 {
   text-align: justify;
   margin-top: 2vmax;
 }
+
 .reach_heading {
   font-size: 40px;
   text-align: -webkit-center;
@@ -36,6 +41,7 @@ h5 {
   color: var(--primary) !important;
   padding-top: 3rem;
 }
+
 .contact-banner {
   width: 100%;
   height: 40vh;
@@ -76,6 +82,7 @@ h5 {
   margin-top: 8vmax;
   text-decoration: none;
 }
+
 #map {
   width: 100%;
   height: 600px;
@@ -110,20 +117,29 @@ h5 {
 .mar {
   margin-top: -1em !important;
 }
+
 .row {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3vmax;
 }
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
 .row .col.offset-s1 {
   margin-left: 8.3333333333%;
 }
+
 .row .col.s10 {
   width: 83.3333333333%;
   /* margin-left: auto; */
   left: auto;
   right: auto;
 }
+
 .row .col {
   float: left;
   -webkit-box-sizing: border-box;
@@ -136,15 +152,18 @@ h5 {
 .row .col.offset-s1 {
   margin-left: 8.3333333333%;
 }
+
 .row .col.s10 {
   width: 83.3333333333%;
   left: auto;
   right: auto;
 }
+
 .col .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
 }
+
 .row .col {
   float: left;
   -webkit-box-sizing: border-box;
@@ -169,6 +188,7 @@ h5 {
   -ms-flex-pack: center;
   justify-content: center;
 }
+
 .block-title span.leftline {
   margin: 0 30px 0 20%;
 }
@@ -188,6 +208,7 @@ h5 {
   -webkit-transition: opacity 0.4s;
   transition: opacity 0.4s;
 }
+
 .row .col.s12 {
   width: 100%;
   margin-left: auto;
@@ -205,6 +226,7 @@ h5 {
   -ms-flex-align: center;
   align-items: center;
 }
+
 .block-title p.title {
   font-family: "Poppins", sans-serif;
   font-size: 2.5em;
@@ -219,6 +241,11 @@ h5 {
 @media screen and (max-width: 727px) {
   .mar {
     margin-top: -1em !important;
+  }
+
+  .leftline,
+  .rightline {
+    display: none;
   }
 
   .map {

@@ -3,6 +3,7 @@
   display: block;
   margin: auto;
 }
+
 .achievements_heading {
   font-size: 40px;
   text-align: -webkit-center;
@@ -13,6 +14,7 @@
   font-weight: bold;
   color: var(--primary) !important;
 }
+
 .achievements_subheading {
   font-size: 20px;
   text-align: -webkit-center;
@@ -23,74 +25,55 @@
   font-weight: bold;
   color: var(--primary) !important;
 }
+
 img {
   height: 100%;
   width: 100%;
   aspect-ratio: preserve;
 }
+
 .achievements-section {
   font-size: 2rem;
   max-width: 1600px;
   margin: 0 auto;
 }
+
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 2rem;
-  margin-top: 2rem;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  width: 100%;
+  max-width: 1200px;
+  column-count: 4;
+  padding: 2rem;
 }
 
-.post {
-  flex: 1 0 10rem;
-  max-width: 10rem;
-  height: fit-content;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  background: #fff;
-  margin: 1rem;
-  border-radius: 2px;
-  font-size: 2rem;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: 0 2px 4px 1px rgb(12 0 46 / 4%);
-  border-radius: 0.6rem;
-  transition: all 0.3s ease-in-out;
-  /* padding: 1rem; */
-  /* gap: 8px; */
-  border: 2px solid rgb(12 0 46 / 4%);
+.company {
+  text-decoration: underline;
+  color: var(--primary);
+  font-size: 1.2rem;
+  display: block;
+  text-align: center;
 }
 
-.post:hover {
-  box-shadow: 0 2px 4px 5px rgb(12 0 46 / 4%);
-  transform: scale(1.02);
-}
-
-.post__image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.post__toolbar {
-  position: relative;
-}
-.post__content--body {
-  color: #999;
-  font-size: 0.8rem;
-  text-align: left;
-}
-@media (max-width: 448px) {
+@media (max-width: 750px) {
   .grid {
-    padding: 0;
+    column-count: 3;
   }
+}
 
+@media (max-width: 550px) {
+  .grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 448px) {
   .post {
     margin: 0;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid {
+    column-count: 1;
   }
 }
