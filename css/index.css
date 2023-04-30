@@ -319,8 +319,8 @@ html:is([data-scroll="0"]) .mobile-heading {
 .pre-footer .list {
   list-style-type: none;
   width: calc(100% / 3);
-  padding: 0 30px;
-  /* padding-left: 30px; */
+  /* padding: 0 30px; */
+  padding-right: 30px;
   /* border-top: 2px solid var(--highlight-bg); */
 }
 
@@ -411,6 +411,10 @@ html:is([data-scroll="0"]) .mobile-heading {
   .pre-footer .list {
     width: 80%;
   }
+
+  .pre-footer .list-2 {
+    width: 80%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -419,6 +423,12 @@ html:is([data-scroll="0"]) .mobile-heading {
   }
 
   .pre-footer .list {
+    margin: auto;
+    margin-bottom: 45px;
+    padding-right: 0;
+  }
+
+  .pre-footer .list-2 {
     margin: auto;
     margin-bottom: 45px;
   }
