@@ -100,7 +100,10 @@
   text-align: center;
 }
 
-.cards p {
+.cards p,
+.cards a {
+  display: block;
+  text-decoration: none;
   text-align: center;
   margin-top: 1rem;
   color: rgb(111, 111, 111);
