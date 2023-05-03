@@ -1,76 +1,1364 @@
 {
     "data": [
         {
-            "name": "Microsoft",
-            "link": "https://www.microsoft.com/en-us/"
+            "name": "ABB",
+            "link": "https://global.abb/"
+        },
+        {
+            "name": "Accenture",
+            "link": "https://www.accenture.com/"
+        },
+        {
+            "name": "Accolite",
+            "link": "https://accolite.com/"
+        },
+        {
+            "name": "Acko",
+            "link": "https://www.acko.com/"
+        },
+        {
+            "name": "Adverb Technologies",
+            "link": "https://www.adverbtech.com/"
+        },
+        {
+            "name": "Adobe",
+            "link": "https://www.adobe.com/"
+        },
+        {
+            "name": "Affine Analytics",
+            "link": "https://www.affineanalytics.com/"
+        },
+        {
+            "name": "Aganitha",
+            "link": "https://www.aganitha.com/"
+        },
+        {
+            "name": "Airtel",
+            "link": "https://www.airtel.in/"
+        },
+        {
+            "name": "Airtel Wynk Profile",
+            "link": "https://www.wynk.in/music"
+        },
+        {
+            "name": "Altudo",
+            "link": "https://www.altudo.co/"
+        },
+        {
+            "name": "Amazon",
+            "link": "https://www.amazon.com/"
+        },
+        {
+            "name": "AMD",
+            "link": "https://www.amd.com/"
+        },
+        {
+            "name": "Amdocs",
+            "link": "https://www.amdocs.com/"
+        },
+        {
+            "name": "American Express",
+            "link": "https://www.americanexpress.com/"
+        },
+        {
+            "name": "Analog Devices",
+            "link": "https://www.analog.com/"
+        },
+        {
+            "name": "Anand Rathi Private Wealth Management",
+            "link": "https://www.rathi.com/"
+        },
+        {
+            "name": "ANZ",
+            "link": "https://www.anz.com/"
+        },
+        {
+            "name": "AppDynamics",
+            "link": "https://www.appdynamics.com/"
+        },
+        {
+            "name": "Apple",
+            "link": "https://www.apple.com/"
+        },
+        {
+            "name": "Arcesium",
+            "link": "https://www.arcesium.com/"
+        },
+        {
+            "name": "Arista Networks",
+            "link": "https://www.arista.com/"
+        },
+        {
+            "name": "ARM",
+            "link": "https://www.arm.com/"
+        },
+        {
+            "name": "Aspiring Minds",
+            "link": "https://www.aspiringminds.com/"
+        },
+        {
+            "name": "Athena's Owl",
+            "link": "https://www.athenasowl.tech/"
+        },
+        {
+            "name": "Atlassian",
+            "link": "https://www.atlassian.com/"
+        },
+        {
+            "name": "Autodesk",
+            "link": "https://www.autodesk.com/"
+        },
+        {
+            "name": "Avaya",
+            "link": "https://www.avaya.com/"
+        },
+        {
+            "name": "Axis Bank",
+            "link": "https://www.axisbank.com/"
+        },
+        {
+            "name": "Axtria",
+            "link": "https://axtria.com/"
+        },
+        {
+            "name": "Axxela",
+            "link": "https://axxela.com/"
+        },
+        {
+            "name": "Ayu",
+            "link": "https://ayu.health/"
+        },
+        {
+            "name": "Barco",
+            "link": "https://www.barco.com/"
+        },
+        {
+            "name": "BCC",
+            "link": "https://bcc.nl/"
+        },
+        {
+            "name": "Betterplace",
+            "link": "https://www.betterplace.org/en/"
+        },
+        {
+            "name": "Bizongo",
+            "link": "https://www.bizongo.com/"
+        },
+        {
+            "name": "Bloomreach",
+            "link": "https://www.bloomreach.com/"
+        },
+        {
+            "name": "BlueJeans",
+            "link": "https://www.bluejeans.com/"
+        },
+        {
+            "name": "Bluestacks",
+            "link": "https://www.bluestacks.com/"
+        },
+        {
+            "name": "BNY Mellon",
+            "link": "https://www.bnymellon.com/"
+        },
+        {
+            "name": "Broadcom",
+            "link": "https://www.broadcom.com/"
+        },
+        {
+            "name": "BrowserStack",
+            "link": "https://www.browserstack.com/"
+        },
+        {
+            "name": "Buyhatke",
+            "link": "https://www.buyhatke.com/"
+        },
+        {
+            "name": "Cadence",
+            "link": "https://www.cadence.com/"
+        },
+        {
+            "name": "Cambio",
+            "link": "https://www.cambio.co.in/"
+        },
+        {
+            "name": "Capgemini",
+            "link": "https://www.capgemini.com/"
+        },
+        {
+            "name": "Carnation",
+            "link": "https://carnation.in/"
+        },
+        {
+            "name": "Cashfree",
+            "link": "https://www.cashfree.com/"
+        },
+        {
+            "name": "CGI",
+            "link": "https://www.cgi.com/en"
+        },
+        {
+            "name": "Chalo",
+            "link": "https://chalo.com/"
+        },
+        {
+            "name": "Chargebee",
+            "link": "https://www.chargebee.com/"
+        },
+        {
+            "name": "Chegg",
+            "link": "https://www.chegg.com/"
+        },
+        {
+            "name": "Cisco",
+            "link": "https://www.cisco.com/"
+        },
+        {
+            "name": "Citi",
+            "link": "https://www.citigroup.com/"
+        },
+        {
+            "name": "Citi Corp",
+            "link": "https://www.citigroup.com/citi/"
+        },
+        {
+            "name": "Citrix",
+            "link": "https://www.citrix.com/"
+        },
+        {
+            "name": "Claxypod",
+            "link": "https://www.claxypod.com/"
+        },
+        {
+            "name": "ClearTax",
+            "link": "https://cleartax.in/"
+        },
+        {
+            "name": "CleverTap",
+            "link": "https://clevertap.com/"
+        },
+        {
+            "name": "Clumio",
+            "link": "https://www.clumio.com/"
+        },
+        {
+            "name": "Clustr",
+            "link": "https://clustr.io/"
+        },
+        {
+            "name": "Cocubes",
+            "link": "https://www.cocubes.com/"
+        },
+        {
+            "name": "CodeNation",
+            "link": "https://innovations.trilogy.com/"
+        },
+        {
+            "name": "Cogoport",
+            "link": "https://www.cogoport.com/"
+        },
+        {
+            "name": "Cohesity",
+            "link": "https://www.cohesity.com/"
+        },
+        {
+            "name": "Commvault",
+            "link": "https://www.commvault.com/"
+        },
+        {
+            "name": "Compass",
+            "link": "https://www.compass.com/"
+        },
+        {
+            "name": "Comviva",
+            "link": "https://www.mahindracomviva.com/"
+        },
+        {
+            "name": "Confluent",
+            "link": "https://www.confluent.io/"
+        },
+        {
+            "name": "Conviva",
+            "link": "https://www.conviva.com/"
+        },
+        {
+            "name": "Cotzero",
+            "link": "https://www.cotzero.com/"
+        },
+        {
+            "name": "CRED",
+            "link": "https://cred.club/"
+        },
+        {
+            "name": "Cure.Fit",
+            "link": "https://www.cure.fit/"
+        },
+        {
+            "name": "Cvent",
+            "link": "https://www.cvent.com/"
+        },
+        {
+            "name": "D-Bank",
+            "link": "https://www.dbankonline.in/"
+        },
+        {
+            "name": "D.E. Shaw",
+            "link": "https://www.deshawindia.com/"
+        },
+        {
+            "name": "Dailyhunt",
+            "link": "https://www.dailyhunt.in/"
+        },
+        {
+            "name": "Delhivery",
+            "link": "https://www.delhivery.com/"
+        },
+        {
+            "name": "Deloitte",
+            "link": "https://www2.deloitte.com/in/en.html"
+        },
+        {
+            "name": "DeltaX",
+            "link": "https://www.deltax.com/"
+        },
+        {
+            "name": "Deutsche Bank",
+            "link": "https://www.db.com/india/"
+        },
+        {
+            "name": "Dialpad",
+            "link": "https://www.dialpad.com/"
+        },
+        {
+            "name": "Digital Green",
+            "link": "https://www.digitalgreen.org/"
+        },
+        {
+            "name": "DirectI",
+            "link": "https://www.directi.com/"
+        },
+        {
+            "name": "Docquity",
+            "link": "https://www.docquity.com/"
+        },
+        {
+            "name": "Dolcera",
+            "link": "https://www.dolcera.com/"
+        },
+        {
+            "name": "Domino Data Lab",
+            "link": "https://www.dominodatalab.com/"
+        },
+        {
+            "name": "Dream11",
+            "link": "https://www.dream11.com/"
+        },
+        {
+            "name": "Drishti Technologies",
+            "link": "https://www.drishti.com/"
+        },
+        {
+            "name": "Dunzo",
+            "link": "https://www.dunzo.com/"
+        },
+        {
+            "name": "Eaton",
+            "link": "https://www.eaton.com/in/en-gb.html"
+        },
+        {
+            "name": "EC COMPANIES",
+            "link": "http://www.eccompanies.in/"
+        },
+        {
+            "name": "Edelweiss",
+            "link": "https://www.edelweiss.in/"
+        },
+        {
+            "name": "EdgeVerve",
+            "link": "https://www.edgeverve.com/"
+        },
+        {
+            "name": "Eigenlytics",
+            "link": "https://www.eigenlytics.com/"
+        },
+        {
+            "name": "Ericsson",
+            "link": "https://www.ericsson.com/in/en"
+        },
+        {
+            "name": "EShopbox",
+            "link": "https://www.eshopbox.com/"
+        },
+        {
+            "name": "Expedia",
+            "link": "https://www.expedia.co.in/"
+        },
+        {
+            "name": "Fab Hotels",
+            "link": "https://www.fabhotels.com/"
+        },
+        {
+            "name": "FactSet",
+            "link": "https://www.factset.com/"
+        },
+        {
+            "name": "Fampay",
+            "link": "https://www.fampay.in/"
+        },
+        {
+            "name": "Fico",
+            "link": "https://www.fico.com/"
+        },
+        {
+            "name": "Fidelity Investments",
+            "link": "https://www.fidelity.com/"
+        },
+        {
+            "name": "GAIL",
+            "link": "https://gailonline.com/"
+        },
+        {
+            "name": "Gameskraft",
+            "link": "https://www.gameskraft.com/"
+        },
+        {
+            "name": "GE",
+            "link": "https://www.ge.com/"
+        },
+        {
+            "name": "GE Digital Healthcare",
+            "link": "https://www.gehealthcare.com/"
+        },
+        {
+            "name": "GEP",
+            "link": "https://www.gep.com/"
+        },
+        {
+            "name": "GEP Solutions",
+            "link": "https://www.gep.com/"
+        },
+        {
+            "name": "Global Foundries",
+            "link": "https://www.globalfoundries.com/"
+        },
+        {
+            "name": "GlobalFoundries",
+            "link": "https://www.globalfoundries.com/"
+        },
+        {
+            "name": "Go Digit",
+            "link": "https://www.godigit.com/"
+        },
+        {
+            "name": "Go-Jek",
+            "link": "https://www.gojek.com/"
+        },
+        {
+            "name": "Goldman Sachs",
+            "link": "https://www.goldmansachs.com/"
+        },
+        {
+            "name": "GoMechanic",
+            "link": "https://www.gomechanic.in/"
         },
         {
             "name": "Google",
             "link": "https://www.google.com/"
         },
         {
-            "name": "Facebook",
-            "link": "https://www.facebook.com/"
+            "name": "Google hardware",
+            "link": "https://store.google.com/"
+        },
+        {
+            "name": "Grab",
+            "link": "https://www.grab.com/"
+        },
+        {
+            "name": "Grofers",
+            "link": "https://grofers.com/"
+        },
+        {
+            "name": "Hackerearth",
+            "link": "https://www.hackerearth.com/"
+        },
+        {
+            "name": "Handzap",
+            "link": "https://www.handzap.com/"
+        },
+        {
+            "name": "Hansa",
+            "link": "https://www.hansa.com/"
+        },
+        {
+            "name": "Happay",
+            "link": "https://www.happay.com/"
+        },
+        {
+            "name": "Harman",
+            "link": "https://www.harman.com/"
+        },
+        {
+            "name": "HashedIn",
+            "link": "https://hashedin.com/"
+        },
+        {
+            "name": "Hevo Data",
+            "link": "https://hevodata.com/"
+        },
+        {
+            "name": "Hike",
+            "link": "https://www.hike.in/"
+        },
+        {
+            "name": "Homelane",
+            "link": "https://www.homelane.com/"
+        },
+        {
+            "name": "Hotstar",
+            "link": "https://www.hotstar.com/"
+        },
+        {
+            "name": "HSBC",
+            "link": "https://www.hsbc.co.in/"
+        },
+        {
+            "name": "Hungerbox",
+            "link": "https://www.hungerbox.com/"
+        },
+        {
+            "name": "IBM",
+            "link": "https://www.ibm.com/in-en"
+        },
+        {
+            "name": "ICICI Bank",
+            "link": "https://www.icicibank.com/"
+        },
+        {
+            "name": "Increff",
+            "link": "https://www.increff.com/"
+        },
+        {
+            "name": "Indeed",
+            "link": "https://www.indeed.co.in/"
+        },
+        {
+            "name": "Indiamart",
+            "link": "https://www.indiamart.com/"
+        },
+        {
+            "name": "Infineon",
+            "link": "https://www.infineon.com/cms/en/"
+        },
+        {
+            "name": "Infoedge",
+            "link": "https://www.infoedge.in/"
+        },
+        {
+            "name": "Informds",
+            "link": "https://informds.com/"
+        },
+        {
+            "name": "Infosys",
+            "link": "https://www.infosys.com/"
+        },
+        {
+            "name": "InMobi",
+            "link": "https://www.inmobi.com/"
+        },
+        {
+            "name": "Innovaccer",
+            "link": "https://innovaccer.com"
+        },
+        {
+            "name": "Instamojo",
+            "link": "https://www.instamojo.com"
+        },
+        {
+            "name": "Intel",
+            "link": "https://www.intel.com/"
+        },
+        {
+            "name": "InterviewBit",
+            "link": "https://www.interviewbit.com"
+        },
+        {
+            "name": "Intuit",
+            "link": "https://www.intuit.com/"
+        },
+        {
+            "name": "ION Trading",
+            "link": "https://iongroup.com/"
+        },
+        {
+            "name": "iRage Capital",
+            "link": "https://www.iragecapital.com"
+        },
+        {
+            "name": "ITH Technologies",
+            "link": "http://www.ithtech.com"
+        },
+        {
+            "name": "IVP",
+            "link": "https://www.ivp.com"
+        },
+        {
+            "name": "Jaro",
+            "link": "http://www.jarolimited.com"
+        },
+        {
+            "name": "JDA",
+            "link": "https://www.blueyonder.com/"
+        },
+        {
+            "name": "Jigserv Digital",
+            "link": "https://jigserv.com/"
+        },
+        {
+            "name": "Jio",
+            "link": "https://www.jio.com"
+        },
+        {
+            "name": "Johnson & Johnson",
+            "link": "https://www.jnj.com"
+        },
+        {
+            "name": "Jumbotail",
+            "link": "https://jumbotail.com/"
+        },
+        {
+            "name": "Juniper",
+            "link": "https://www.juniper.net"
+        },
+        {
+            "name": "Juniper Networks",
+            "link": "https://www.juniper.net/"
+        },
+        {
+            "name": "Juspay",
+            "link": "https://juspay.in/"
+        },
+        {
+            "name": "Keysight Technologies",
+            "link": "https://www.keysight.com"
+        },
+        {
+            "name": "knowmax",
+            "link": "https://knowmax.ai/"
+        },
+        {
+            "name": "Kotak",
+            "link": "https://www.kotak.com/"
+        },
+        {
+            "name": "KPMG",
+            "link": "https://home.kpmg/in/en/home.html"
+        },
+        {
+            "name": "KPMG Japan",
+            "link": "https://home.kpmg/jp/en/home.html"
+        },
+        {
+            "name": "Kronos",
+            "link": "https://www.kronos.com"
+        },
+        {
+            "name": "Lending Kart",
+            "link": "https://www.lendingkart.com"
+        },
+        {
+            "name": "Libsys",
+            "link": "http://www.libsys.co.in"
+        },
+        {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com"
+        },
+        {
+            "name": "LogicFruit",
+            "link": "http://www.logicfruit.com"
+        },
+        {
+            "name": "Lowe's",
+            "link": "https://www.lowes.com"
+        },
+        {
+            "name": "Lynk Logistics",
+            "link": "https://www.lynk.global"
+        },
+        {
+            "name": "Marvell",
+            "link": "https://www.marvell.com"
+        },
+        {
+            "name": "Matchday.ai",
+            "link": "https://www.matchday.ai"
+        },
+        {
+            "name": "Mathworks",
+            "link": "https://www.mathworks.com"
+        },
+        {
+            "name": "Maxim Integrated",
+            "link": "https://www.maximintegrated.com"
+        },
+        {
+            "name": "MCQdb",
+            "link": "https://www.mcqdb.com"
+        },
+        {
+            "name": "Media net",
+            "link": "https://www.media.net"
+        },
+        {
+            "name": "Mediatek",
+            "link": "https://www.mediatek.com"
+        },
+        {
+            "name": "Meesho",
+            "link": "https://meesho.com"
+        },
+        {
+            "name": "Mentor Graphics",
+            "link": "https://www.mentor.com"
+        },
+        {
+            "name": "Mercer",
+            "link": "https://www.mercer.com"
+        },
+        {
+            "name": "Mettl",
+            "link": "https://mettl.com"
+        },
+        {
+            "name": "Micron",
+            "link": "https://www.micron.com"
         },
         {
             "name": "Microsoft",
-            "link": "https://www.microsoft.com/en-us/"
+            "link": "https://www.microsoft.com"
         },
         {
-            "name": "Google",
-            "link": "https://www.google.com/"
+            "name": "Mind Tickle",
+            "link": "https://www.mindtickle.com"
         },
         {
-            "name": "Facebook",
-            "link": "https://www.facebook.com/"
+            "name": "Mindtree",
+            "link": "https://www.mindtree.com"
         },
         {
-            "name": "Microsoft",
-            "link": "https://www.microsoft.com/en-us/"
+            "name": "Mintifi",
+            "link": "https://mintifi.com"
         },
         {
-            "name": "Google",
-            "link": "https://www.google.com/"
+            "name": "MirrorSize",
+            "link": "https://mirrorsize.com"
         },
         {
-            "name": "Facebook",
-            "link": "https://www.facebook.com/"
+            "name": "Mobikwik",
+            "link": "https://www.mobikwik.com"
         },
         {
-            "name": "Microsoft",
-            "link": "https://www.microsoft.com/en-us/"
+            "name": "MoneyView",
+            "link": "https://moneyview.in"
         },
         {
-            "name": "Google",
-            "link": "https://www.google.com/"
+            "name": "Moonfrog Labs",
+            "link": "https://moonfroglabs.com"
         },
         {
-            "name": "Facebook",
-            "link": "https://www.facebook.com/"
+            "name": "Morgan Stanley",
+            "link": "https://www.morganstanley.com"
         },
         {
-            "name": "Microsoft",
-            "link": "https://www.microsoft.com/en-us/"
+            "name": "myHQ",
+            "link": "https://www.myhq.in"
         },
         {
-            "name": "Google",
-            "link": "https://www.google.com/"
+            "name": "Myntra",
+            "link": "https://www.myntra.com"
         },
         {
-            "name": "Facebook",
-            "link": "https://www.facebook.com/"
+            "name": "MoneyView",
+            "link": "https://moneyview.in"
         },
         {
-            "name": "Microsoft",
-            "link": "https://www.microsoft.com/en-us/"
+            "name": "Moonfrog Labs",
+            "link": "https://moonfroglabs.com"
         },
         {
-            "name": "Google",
-            "link": "https://www.google.com/"
+            "name": "MAQ",
+            "link": "https://www.maqsoftware.com/"
         },
         {
-            "name": "Facebook",
-            "link": "https://www.facebook.com/"
+            "name": "MAQ(SDE 2)",
+            "link": "https://www.maqsoftware.com/"
+        },
+        {
+            "name": "Nagarro",
+            "link": "https://www.nagarro.com/en"
+        },
+        {
+            "name": "Netapp",
+            "link": "https://www.netapp.com/"
+        },
+        {
+            "name": "Neucleus",
+            "link": "https://www.neucleus.com/"
+        },
+        {
+            "name": "Newgen",
+            "link": "https://newgensoft.com/"
+        },
+        {
+            "name": "Nextuple",
+            "link": "https://www.nextuple.com/"
+        },
+        {
+            "name": "Nucleus",
+            "link": "https://nucleussoftware.com/"
+        },
+        {
+            "name": "Nutanix",
+            "link": "https://www.nutanix.com/"
+        },
+        {
+            "name": "NVIDIA",
+            "link": "https://www.nvidia.com/en-us/"
+        },
+        {
+            "name": "NxP",
+            "link": "https://www.nxp.com/"
+        },
+        {
+            "name": "NXP Semiconductors",
+            "link": "https://www.nxp.com/"
+        },
+        {
+            "name": "Nykaa",
+            "link": "https://www.nykaa.com/"
+        },
+        {
+            "name": "nykkaa",
+            "link": "https://www.nykaa.com/"
+        },
+        {
+            "name": "OLA",
+            "link": "https://www.olacabs.com/"
+        },
+        {
+            "name": "OLX",
+            "link": "https://www.olx.in/"
+        },
+        {
+            "name": "Ombre",
+            "link": "https://www.ombre.io/"
+        },
+        {
+            "name": "One Plus",
+            "link": "https://www.oneplus.in/"
+        },
+        {
+            "name": "Oppo",
+            "link": "https://www.oppo.com/in/"
+        },
+        {
+            "name": "Optum",
+            "link": "https://www.optum.com/"
+        },
+        {
+            "name": "Oracle",
+            "link": "https://www.oracle.com/in/"
+        },
+        {
+            "name": "Oyo",
+            "link": "https://www.oyorooms.com/"
+        },
+        {
+            "name": "PayTM",
+            "link": "https://paytm.com/"
+        },
+        {
+            "name": "PayU",
+            "link": "https://www.payu.in/"
+        },
+        {
+            "name": "Pharmeasy",
+            "link": "https://pharmeasy.in/"
+        },
+        {
+            "name": "Publicis Sapient",
+            "link": "https://www.publicissapient.com/"
+        },
+        {
+            "name": "Philips",
+            "link": "https://www.philips.co.in/"
+        },
+        {
+            "name": "PhonePe",
+            "link": "https://www.phonepe.com/"
+        },
+        {
+            "name": "Pinnacledia",
+            "link": "https://www.pinnacledia.com/"
+        },
+        {
+            "name": "PlaySimple Games",
+            "link": "https://playsimple.in/"
+        },
+        {
+            "name": "Pocketpills",
+            "link": "https://www.pocketpills.com/"
+        },
+        {
+            "name": "Porter",
+            "link": "https://porter.in/"
+        },
+        {
+            "name": "Postman",
+            "link": "https://www.postman.com/"
+        },
+        {
+            "name": "Practo",
+            "link": "https://www.practo.com/"
+        },
+        {
+            "name": "Prime numbers",
+            "link": ""
+        },
+        {
+            "name": "Pristyncare",
+            "link": "https://www.pristyncare.com/"
+        },
+        {
+            "name": "PropTiger",
+            "link": "https://www.proptiger.com/"
+        },
+        {
+            "name": "Protonn",
+            "link": "https://www.protonn.com/"
+        },
+        {
+            "name": "Public Sapient",
+            "link": "https://www.publicissapient.com/"
+        },
+        {
+            "name": "QA Infotech",
+            "link": "https://qainfotech.com/"
+        },
+        {
+            "name": "Qualcomm",
+            "link": "https://www.qualcomm.com/"
+        },
+        {
+            "name": "Quantiphi",
+            "link": "https://www.quantiphi.com/"
+        },
+        {
+            "name": "Quantiphi Analytic Solutions",
+            "link": "https://www.quantiphi.com/"
+        },
+        {
+            "name": "Qubole",
+            "link": "https://www.qubole.com/"
+        },
+        {
+            "name": "Quolum",
+            "link": "https://quolum.com/"
+        },
+        {
+            "name": "Rakuten",
+            "link": "https://global.rakuten.com/"
+        },
+        {
+            "name": "Razorpay",
+            "link": "https://razorpay.com/"
+        },
+        {
+            "name": "RBS",
+            "link": "https://www.rbs.com/"
+        },
+        {
+            "name": "Reading Right",
+            "link": "https://www.readingright.in/"
+        },
+        {
+            "name": "Recko",
+            "link": "https://www.recko.io/"
+        },
+        {
+            "name": "Reliance",
+            "link": "https://www.ril.com/"
+        },
+        {
+            "name": "Reliance Jio",
+            "link": "https://www.jio.com/"
+        },
+        {
+            "name": "Rephrase.ai",
+            "link": "https://www.rephrase.ai/"
+        },
+        {
+            "name": "Rivigo",
+            "link": "https://www.rivigo.com/"
+        },
+        {
+            "name": "Rubique",
+            "link": "https://www.rubique.com/"
+        },
+        {
+            "name": "Rubrik",
+            "link": "https://www.rubrik.com/"
+        },
+        {
+            "name": "S&P Global Market Intelligence",
+            "link": "https://www.spglobal.com/marketintelligence/en/"
+        },
+        {
+            "name": "Sabre",
+            "link": "https://www.sabre.com/"
+        },
+        {
+            "name": "Saggazza",
+            "link": "https://saggazza.com/"
+        },
+        {
+            "name": "Salesforce",
+            "link": "https://www.salesforce.com/in/"
+        },
+        {
+            "name": "Samsung Gurgaon",
+            "link": "https://www.samsung.com/in/"
+        },
+        {
+            "name": "Samsung R&D Bangalore",
+            "link": "https://www.samsung.com/in/"
+        },
+        {
+            "name": "Samsung R&D Delhi",
+            "link": "https://www.samsung.com/in/"
+        },
+        {
+            "name": "Samsung SDS",
+            "link": "https://www.samsungsds.com/"
+        },
+        {
+            "name": "Samsung SSIR",
+            "link": "https://www.samsung.com/in/"
+        },
+        {
+            "name": "Sandisk",
+            "link": "https://www.sandisk.in/"
+        },
+        {
+            "name": "Sap labs",
+            "link": "https://www.sap.com/india/about/labs.html"
+        },
+        {
+            "name": "Scaler Academy",
+            "link": "https://www.scaler.com/"
+        },
+        {
+            "name": "Seekify",
+            "link": "https://seekify.ai/"
+        },
+        {
+            "name": "SerViCeNOW",
+            "link": "https://www.servicenow.in/"
+        },
+        {
+            "name": "ShareChat",
+            "link": "https://sharechat.com/in/"
+        },
+        {
+            "name": "Shopclues",
+            "link": "https://www.shopclues.com/"
+        },
+        {
+            "name": "Shopcom",
+            "link": "https://www.shop.com/"
+        },
+        {
+            "name": "Siemens",
+            "link": "https://www.siemens.com/in/en/home.html"
+        },
+        {
+            "name": "Siemens Healthineers",
+            "link": "https://www.siemens-healthineers.com/in/"
+        },
+        {
+            "name": "Sigmoid",
+            "link": "https://sigmoidanalytics.com/"
+        },
+        {
+            "name": "smartprix",
+            "link": "https://www.smartprix.com/"
+        },
+        {
+            "name": "smartserver",
+            "link": "https://www.smartserver.co.in/"
+        },
+        {
+            "name": "Snapdeal",
+            "link": "https://www.snapdeal.com/"
+        },
+        {
+            "name": "Societe Generale",
+            "link": "https://www.societegenerale.com/en/home"
+        },
+        {
+            "name": "Sony",
+            "link": "https://www.sony.co.in/"
+        },
+        {
+            "name": "Sony India",
+            "link": "https://www.sony.co.in/"
+        },
+        {
+            "name": "Soroco",
+            "link": "https://www.soroco.com/"
+        },
+        {
+            "name": "SplashLearn",
+            "link": "https://www.splashlearn.com/"
+        },
+        {
+            "name": "Sprinklr",
+            "link": "https://www.sprinklr.com/"
+        },
+        {
+            "name": "Squadrun",
+            "link": "https://squad.run/"
+        },
+        {
+            "name": "ST Microelectronics",
+            "link": "https://www.st.com/content/st_com/en.html"
+        },
+        {
+            "name": "Subex",
+            "link": "https://www.subex.com/"
+        },
+        {
+            "name": "Sumologic",
+            "link": "https://www.sumologic.com/"
+        },
+        {
+            "name": "survey2connect",
+            "link": "https://survey2connect.com/"
+        },
+        {
+            "name": "Synaptic",
+            "link": "https://www.synaptic.com/"
+        },
+        {
+            "name": "Synopsys",
+            "link": "https://www.synopsys.com/"
+        },
+        {
+            "name": "T-Systems",
+            "link": "https://www.t-systems.com/"
+        },
+        {
+            "name": "Tekion",
+            "link": "https://www.tekion.com/"
+        },
+        {
+            "name": "Telstra",
+            "link": "https://www.telstra.com.au/"
+        },
+        {
+            "name": "Tesco",
+            "link": "https://www.tesco.com/"
+        },
+        {
+            "name": "Texas Instruments",
+            "link": "https://www.ti.com/"
+        },
+        {
+            "name": "ThoughtSpot",
+            "link": "https://www.thoughtspot.com/"
+        },
+        {
+            "name": "Times Internet",
+            "link": "https://www.timesinternet.in/"
+        },
+        {
+            "name": "Toppr",
+            "link": "https://www.toppr.com/"
+        },
+        {
+            "name": "Tower Research",
+            "link": "https://www.tower-research.com/"
+        },
+        {
+            "name": "TransOrg",
+            "link": "https://www.transorg.com/"
+        },
+        {
+            "name": "Travel Triangle",
+            "link": "https://www.traveltriangle.com/"
+        },
+        {
+            "name": "Traveloka",
+            "link": "https://www.traveloka.com/"
+        },
+        {
+            "name": "Tredence",
+            "link": "https://www.tredence.com/"
+        },
+        {
+            "name": "Treebo Hotels",
+            "link": "https://www.treebo.com/"
+        },
+        {
+            "name": "Trifacta",
+            "link": "https://www.trifacta.com/"
+        },
+        {
+            "name": "Truebil",
+            "link": "https://truebil.com/"
+        },
+        {
+            "name": "Turtlemint",
+            "link": "https://www.turtlemint.com/"
+        },
+        {
+            "name": "Uber",
+            "link": "https://www.uber.com/"
+        },
+        {
+            "name": "Ubisoft",
+            "link": "https://www.ubisoft.com/"
+        },
+        {
+            "name": "UBS",
+            "link": "https://www.ubs.com/"
+        },
+        {
+            "name": "Udaan",
+            "link": "https://udaan.com/"
+        },
+        {
+            "name": "Unacademy",
+            "link": "https://unacademy.com/"
+        },
+        {
+            "name": "Undostres",
+            "link": "https://www.undostres.com/"
+        },
+        {
+            "name": "United Airlines",
+            "link": "https://www.united.com/"
+        },
+        {
+            "name": "Uolo",
+            "link": "https://www.uolo.in/"
+        },
+        {
+            "name": "UpGrad",
+            "link": "https://www.upgrad.com/"
+        },
+        {
+            "name": "Urban Company",
+            "link": "https://www.urbancompany.com/"
+        },
+        {
+            "name": "Valuefy",
+            "link": "https://www.valuefy.com/"
+        },
+        {
+            "name": "Vassar Labs",
+            "link": "https://www.vassarlabs.com/"
+        },
+        {
+            "name": "Vehant",
+            "link": "https://www.vehant.com/"
+        },
+        {
+            "name": "Vyomlabs",
+            "link": "https://www.vyomlabs.com/"
+        },
+        {
+            "name": "Walmart",
+            "link": "https://www.walmart.com/"
+        },
+        {
+            "name": "Walmart Labs",
+            "link": "https://www.walmartlabs.com/"
+        },
+        {
+            "name": "Winzo Games",
+            "link": "https://winzogames.com/"
+        },
+        {
+            "name": "Wipro",
+            "link": "https://www.wipro.com/"
+        },
+        {
+            "name": "WMall",
+            "link": "https://www.wmall.in/"
+        },
+        {
+            "name": "WNS Global",
+            "link": "https://www.wns.com/"
+        },
+        {
+            "name": "Workindia",
+            "link": "https://www.workindia.in/"
+        },
+        {
+            "name": "XEpic",
+            "link": "https://www.xepic.com/"
+        },
+        {
+            "name": "Xilinx",
+            "link": "https://www.xilinx.com/"
+        },
+        {
+            "name": "Yantriks",
+            "link": "https://www.yantriks.com/"
+        },
+        {
+            "name": "Yatra",
+            "link": "https://www.yatra.com/"
+        },
+        {
+            "name": "Yellow Class",
+            "link": "https://www.yellowclass.com/"
+        },
+        {
+            "name": "Yellow Messenger",
+            "link": "https://yellowmessenger.com/"
+        },
+        {
+            "name": "Zapr",
+            "link": "https://www.zapr.in/"
+        },
+        {
+            "name": "Zelthy",
+            "link": "https://www.zelthy.com/"
+        },
+        {
+            "name": "Zendrive",
+            "link": "https://www.zendrive.com/"
+        },
+        {
+            "name": "Zeta",
+            "link": "https://www.zeta.tech/"
+        },
+        {
+            "name": "Ziploan",
+            "link": "https://www.ziploan.in/"
+        },
+        {
+            "name": "Zolostays",
+            "link": "https://zolostays.com/"
+        },
+        {
+            "name": "Zomato",
+            "link": "https://www.zomato.com/"
+        },
+        {
+            "name": "ZoomCar",
+            "link": "https://www.zoomcar.com/"
         }
     ]
 }

@@ -1,79 +1,79 @@
 .recruiters {
-  max-width: 1200px;
-  display: block;
-  margin: auto;
+    max-width: 1200px;
+    display: block;
+    margin: auto;
 }
 
 .achievements_heading {
-  font-size: 40px;
-  text-align: -webkit-center;
-  justify-content: center;
-  display: flow-root;
-  margin-bottom: -10px;
-  margin-top: 7rem;
-  font-weight: bold;
-  color: var(--primary) !important;
+    font-size: 40px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 7rem;
+    font-weight: bold;
+    color: var(--primary) !important;
 }
 
 .achievements_subheading {
-  font-size: 20px;
-  text-align: -webkit-center;
-  justify-content: center;
-  display: flow-root;
-  margin-bottom: -10px;
-  margin-top: 70px;
-  font-weight: bold;
-  color: var(--primary) !important;
+    font-size: 20px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
 }
 
 img {
-  height: 100%;
-  width: 100%;
-  aspect-ratio: preserve;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: preserve;
 }
 
 .achievements-section {
-  font-size: 2rem;
-  max-width: 1600px;
-  margin: 0 auto;
+    font-size: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .grid {
-  width: 100%;
-  max-width: 1200px;
-  column-count: 4;
-  padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    column-count: 4;
+    padding: 2rem;
 }
 
 .company {
-  text-decoration: underline;
-  color: var(--primary);
-  font-size: 1.2rem;
-  display: block;
-  text-align: center;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 1.2rem;
+    display: block;
+    text-align: left;
 }
 
 @media (max-width: 750px) {
-  .grid {
-    column-count: 3;
-  }
+    .grid {
+        column-count: 3;
+    }
 }
 
 @media (max-width: 550px) {
-  .grid {
-    column-count: 2;
-  }
+    .grid {
+        column-count: 2;
+    }
 }
 
 @media (max-width: 448px) {
-  .post {
-    margin: 0;
-    flex-direction: column;
-  }
+    .post {
+        margin: 0;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 400px) {
-  .grid {
-    column-count: 1;
-  }
+    .grid {
+        column-count: 1;
+    }
 }
