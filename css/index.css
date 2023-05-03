@@ -1,6 +1,6 @@
 :root {
-  --primary: #ffb411;
-  --highlight-bg: #ffb4111f;
+  --primary: #0172E4;
+  --highlight-bg: #0172E41f;
 }
 
 * {
@@ -39,7 +39,8 @@ div {
 .opacity-1 {
   opacity: 1;
 }
-.nav-cont > a {
+
+.nav-cont>a {
   text-decoration: none;
   color: black;
 }
@@ -92,7 +93,7 @@ html:is([data-scroll="0"]) .mobile-heading {
   color: white;
 }
 
-.nav-logo > img {
+.nav-logo>img {
   width: 3rem;
   height: 100%;
   object-fit: cover;
@@ -181,7 +182,7 @@ html:is([data-scroll="0"]) .mobile-heading {
   transition: content 0s linear 0.3s;
 }
 
-.nav-collapse-open + .nav-collapse-header::after {
+.nav-collapse-open+.nav-collapse-header::after {
   content: "▲";
 }
 
@@ -209,7 +210,8 @@ html:is([data-scroll="0"]) .mobile-heading {
   font-weight: 500;
   color: var(--primary);
 }
-.nav-collapse-item > a {
+
+.nav-collapse-item>a {
   font-size: 1rem;
 }
 
@@ -255,7 +257,7 @@ html:is([data-scroll="0"]) .mobile-heading {
     max-height: 1000px;
   }
 
-  .nav-collapse-mobile-open + .nav-collapse-header::after {
+  .nav-collapse-mobile-open+.nav-collapse-header::after {
     content: "▲";
   }
 
