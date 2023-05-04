@@ -1,461 +1,457 @@
 .recruiter-heading {
-  margin-top: 9rem !important;
+    margin-top: 9rem !important;
 }
 .recruiters {
-  --gap: 1rem;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  user-select: none;
-  gap: var(--gap);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+    --gap: 1rem;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .recruiter-list {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-around;
-  gap: var(--gap);
-  min-width: 100%;
-  list-style-type: none;
-  /* border-radius: 4px; */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: var(--gap);
+    min-width: 100%;
+    list-style-type: none;
+    /* border-radius: 4px; */
 }
 
 .recruiter-list li img {
-  height: 150px;
-  width: 150px;
-  border-radius: 4px;
-  object-fit: contain;
-  object-position: center;
-  box-shadow: 0 0 0 2px #fff;
-  transition: transform 0.3s ease-in-out;
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    object-fit: contain;
+    object-position: center;
+    box-shadow: 0 0 0 2px #fff;
+    transition: transform 0.3s ease-in-out;
 }
 
 .recruiter-list li img:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 @keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
+    from {
+        transform: translateX(0);
+    }
 
-  to {
-    transform: translateX(calc(-100% - var(--gap)));
-  }
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
 }
 
 .recruiter-list {
-  animation: scroll 10s linear infinite;
+    animation: scroll 10s linear infinite;
 }
 
 .recruiters:hover .recruiter-list {
-  animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 img {
-  height: 150px;
+    height: 150px;
 }
 
 .recruiter-section {
-  font-size: 2rem;
-  max-width: 1600px;
-  margin: 0 auto;
+    font-size: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .recruiter-heading {
-  font-size: 40px;
-  text-align: -webkit-center;
-  justify-content: center;
-  display: flow-root;
-  margin-bottom: -10px;
-  margin-top: 70px;
-  font-weight: bold;
-  color: var(--primary) !important;
+    font-size: 40px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: -10px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
 }
 
 .recruiter-grid {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 8rem;
-  margin-top: 2rem;
-  text-align: center;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8rem;
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
 }
 
-.course-type{
-  display:flex;
-  font-size: 2rem;
-  color: var(--primary);
-  justify-content: center;
-  width: 100%;
-  padding-top: 3vh;
-  font-weight: 600;
-  text-decoration-line: underline;
-  text-decoration-thickness: from-font;
-  text-underline-offset: 8px;
-  /* text-decoration:underline; */
+.course-type {
+    display: flex;
+    font-size: 2rem;
+    color: var(--primary);
+    justify-content: center;
+    width: 100%;
+    padding-top: 3vh;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-decoration-thickness: from-font;
+    text-underline-offset: 8px;
+    /* text-decoration:underline; */
 }
 
 .desc {
-  font-size: 1.1rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-top: 2rem;
-  text-align: center;
+    font-size: 1.1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    text-align: center;
 }
 
-
-
 .post {
-  flex: 1 0 min(24rem, 100%);
-  max-width: 24rem;
-  background: #fff;
-  margin: 1rem;
-  border-radius: 2px;
-  min-height: 250px;
-  font-size: 2rem;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: 0 2px 4px 1px rgb(12 0 46 / 4%);
-  border-radius: 0.6rem;
-  transition: all 0.3s ease-in-out;
-  border: 0.5px solid var(--primary);
+    flex: 1 0 min(24rem, 100%);
+    max-width: 24rem;
+    background: #fff;
+    margin: 1rem;
+    border-radius: 2px;
+    min-height: 250px;
+    font-size: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 1px rgb(12 0 46 / 4%);
+    border-radius: 0.6rem;
+    transition: all 0.3s ease-in-out;
+    border: 0.5px solid var(--primary);
 }
 
 .post:hover {
-  box-shadow: 0 2px 4px 5px rgba(11, 109, 255, 0.04);
-  transform: scale(1.02);
+    box-shadow: 0 2px 4px 5px rgba(11, 109, 255, 0.04);
+    transform: scale(1.02);
 }
 
 .post__image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .post__toolbar {
-  position: relative;
+    position: relative;
 }
 
 .post__content {
-  padding: 1rem;
-  text-align: center;
+    padding: 1rem;
+    text-align: center;
 }
 
 .post__content--title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .post__content--body {
-  color: #999;
-  font-size: 1rem;
-  text-align: justify;
-  padding-top: 0.7rem;
-  display: inline-block;
-  text-align: center;
+    color: #999;
+    font-size: 1rem;
+    text-align: justify;
+    padding-top: 0.7rem;
+    display: inline-block;
+    text-align: center;
 }
 
 .reduce-margin-top {
-  transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 @media (max-width: 716px) {
-  .desc {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
+    .desc {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
 }
 
 @media (max-width: 448px) {
-  .recruiter-grid {
-    padding: 0;
-  }
+    .recruiter-grid {
+        padding: 0;
+    }
 
-  .post {
-    margin: 0;
-    border: none;
-  }
+    .post {
+        margin: 0;
+        border: none;
+    }
 
-  .desc {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+    .desc {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
 
 @keyframes scroll-abs {
-  from {
-    transform: translateX(calc(100% + var(--gap)));
-  }
+    from {
+        transform: translateX(calc(100% + var(--gap)));
+    }
 
-  to {
-    transform: translateX(0);
-  }
+    to {
+        transform: translateX(0);
+    }
 }
 
 .MuiSvgIcon-root {
-  fill: currentColor;
-  width: 1em;
-  height: 1em;
-  display: inline-block;
-  font-size: 1.5rem;
-  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  flex-shrink: 0;
-  user-select: none;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
 }
 
 .line {
-  height: 1px;
-  opacity: 0.7;
-  width: 50%;
-  background-color: #000;
-  margin-top: 32px;
-  margin-left: 25%;
+    height: 1px;
+    opacity: 0.7;
+    width: 50%;
+    background-color: #000;
+    margin-top: 32px;
+    margin-left: 25%;
 }
 
 /* Styling for Accordian */
 @import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
 .container {
-  margin: 0 auto;
-  padding: 4rem;
-  width: 100%;
+    margin: 0 auto;
+    padding: 4rem;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
-  .container {
-    margin: 0 auto;
-    padding: 1rem;
-  }
+    .container {
+        margin: 0 auto;
+        padding: 1rem;
+    }
 }
 
 .accordion .accordion-item {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 .accordion .accordion-item button[aria-expanded="true"] {
-  border-bottom: 1px solid --var(primary);
+    border-bottom: 1px solid --var(primary);
 }
 .accordion button {
-  position: relative;
-  display: block;
-  text-align: left;
-  width: 100%;
-  padding: 1em 0;
-  color: #7288a2;
-  font-size: 1.15rem;
-  font-weight: 400;
-  border: none;
-  background: none;
-  outline: none;
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
 }
 .accordion button:hover,
 .accordion button:focus {
-  cursor: pointer;
-  color: #ffb411;
+    cursor: pointer;
+    color: var(--primary);
 }
 .accordion button:hover::after,
 .accordion button:focus::after {
-  cursor: pointer;
-  color: #ffb411;
-  border: 1px solid #ffb411;
+    cursor: pointer;
+    color: var(--primary);
+    border: 1px solid var(--primary);
 }
 .accordion button .accordion-title {
-  padding: 1em 1.5em 1em 0;
-  color: --var(primary);
-  
+    padding: 1em 1.5em 1em 0;
+    color: --var(primary);
 }
 .accordion button .icon {
-  display: inline-block;
-  position: absolute;
-  top: 18px;
-  right: 0;
-  width: 22px;
-  height: 22px;
-  border: 1px solid;
-  border-radius: 22px;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
 }
 .accordion button .icon::before {
-  display: block;
-  position: absolute;
-  content: "";
-  top: 9px;
-  left: 5px;
-  width: 10px;
-  height: 2px;
-  background: currentColor;
+    display: block;
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
 }
 .accordion button .icon::after {
-  display: block;
-  position: absolute;
-  content: "";
-  top: 5px;
-  left: 9px;
-  width: 2px;
-  height: 10px;
-  background: currentColor;
+    display: block;
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
 }
 
 .accordion-content {
-  display: flex;
-  flex-wrap: wrap;
-  /* align-items: flex-start; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
 }
 
 .accordion button[aria-expanded="true"] {
-  color: #ffb411;
+    color: var(--primary);
 }
 
 .accordion button[aria-expanded="true"] .icon::after {
-  width: 0;
+    width: 0;
 }
 
 .accordion button[aria-expanded="true"] + .accordion-content {
-  opacity: 1;
-  max-height: 5000px;
-  height: auto;
-  transition: max-height 2s ease-in-out;
-  will-change: opacity, max-height;
+    opacity: 1;
+    max-height: 5000px;
+    height: auto;
+    transition: max-height 2s ease-in-out;
+    will-change: opacity, max-height;
 }
 
 .accordion button[aria-expanded="false"] + .accordion-content {
-  height: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s linear, height 2s linear, overflow 0.2s linear;
-  will-change: height, overflow, max-height;
+    height: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s linear, height 2s linear, overflow 0.2s linear;
+    will-change: height, overflow, max-height;
 }
 
 .accordion .accordion-content {
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 2s ease-in-out, opacity 0.2s linear;
-  will-change: opacity, max-height;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease-in-out, opacity 0.2s linear;
+    will-change: opacity, max-height;
 }
 
 .accordion .accordion-content p {
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 2em 0;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
 }
 
 .course-details {
-  font-size: 40px;
-  text-align: -webkit-center;
-  justify-content: center;
-  display: flow-root;
-  margin-bottom: 20px;
-  margin-top: 70px;
-  font-weight: bold;
-  color: var(--primary) !important;
+    font-size: 40px;
+    text-align: -webkit-center;
+    justify-content: center;
+    display: flow-root;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: var(--primary) !important;
 }
 
 /* Style for course sections */
 .courses {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .courses p {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .courses ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .courses ul li {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 /* Media queries for responsive design */
 @media only screen and (max-width: 767px) {
-  .courses {
-    width: 100%;
-  }
+    .courses {
+        width: 100%;
+    }
 }
 
 .accordion-item {
-  margin: 0 auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  text-align: center;
+    margin: 0 auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-align: center;
 }
 
 .accordion-title {
-  font-size: 24px;
-  color: --var(primary);
+    font-size: 24px;
+    color: --var(primary);
 }
 
 .accordion-content ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .accordion-content li {
-  font-size: 18px;
-  margin: 10px 0;
+    font-size: 18px;
+    margin: 10px 0;
 }
 
-.electives{
-  display:flex;
-  font-size: 2rem;
-  color: var(--primary);
-  justify-content: center;
-  width: 100%;
-  padding:2vmax;
-  /* text-decoration:underline; */
+.electives {
+    display: flex;
+    font-size: 2rem;
+    color: var(--primary);
+    justify-content: center;
+    width: 100%;
+    padding: 2vmax;
+    /* text-decoration:underline; */
 }
-
 
 .course-item {
-  flex: 1 0 min(24rem, 100%);
-  background: #fff;
-  margin: 1rem;
-  width: 5rem;
-  border-radius: 2px;
-  padding-top: 2rem;
-  font-size: 2rem;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: 0 2px 4px 1px rgb(12 0 46 / 4%);
-  border-radius: 0.6rem;
-  transition: all 0.3s ease-in-out;
-  border: 0.5px solid var(--primary);
+    flex: 1 0 min(24rem, 100%);
+    background: #fff;
+    margin: 1rem;
+    width: 5rem;
+    border-radius: 2px;
+    padding-top: 2rem;
+    font-size: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 1px rgb(12 0 46 / 4%);
+    border-radius: 0.6rem;
+    transition: all 0.3s ease-in-out;
+    border: 0.5px solid var(--primary);
 }
 
 .course-item .title {
-  font-size: 1.5rem;
-  color: var(--primary);
+    font-size: 1.5rem;
+    color: var(--primary);
 }
 
 @media only screen and (max-width: 1100px) {
-  .container {
-    width: 100%;
-  }
-  .course-details {
-    font-size: 40px;
-  }
-  .accordion-title {
-    font-size: 1.3rem;
-  }
+    .container {
+        width: 100%;
+    }
+    .course-details {
+        font-size: 40px;
+    }
+    .accordion-title {
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 500px) {
-  .container {
-    margin: 0 auto;
-    padding: 1rem;
-    width: 23rem;
-  }
-  .course-item {
-    font-size: 0.5rem;
-    margin-left: 0;
-    margin-right: 0;
-  }
+    .container {
+        margin: 0 auto;
+        padding: 1rem;
+        width: 23rem;
+    }
+    .course-item {
+        font-size: 0.5rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
