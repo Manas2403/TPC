@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 170vh;
+    height: 140vh;
     width: 100%;
 }
+
 .brochure2 {
     display: flex;
     align-items: center;
@@ -12,6 +13,7 @@
     height: 35vh;
     width: 100%;
 }
+
 .achievements_heading {
     font-size: 40px;
     text-align: -webkit-center;
@@ -22,6 +24,7 @@
     font-weight: bold;
     color: var(--primary) !important;
 }
+
 .brochure-content {
     /* margin-top: 1rem; */
     padding-bottom: 3rem;
@@ -33,13 +36,15 @@
     /* border-radius: 5px;
     box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.1); */
 }
+
 .brochure-content a {
     margin: 2rem;
     color: black;
     font-size: large;
 }
+
 .pdf {
     max-width: 800px;
     width: 70vw;
-    height: 150vh;
+    height: 120vh;
 }
