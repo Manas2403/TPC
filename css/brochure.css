@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 170vh;
     width: 100%;
 }
 .achievements_heading {
@@ -34,5 +34,5 @@
 .pdf {
     max-width: 800px;
     width: 70vw;
-    height: 70vh;
+    height: 150vh;
 }

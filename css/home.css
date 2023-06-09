@@ -1,9 +1,11 @@
 .hero-container {
-    background: linear-gradient(0deg,
+    background: linear-gradient(
+            0deg,
             rgba(7, 15, 41, 0.8549019607843137),
             rgba(25, 34, 61, 0.623) 20%,
             rgba(37, 71, 140, 0.39),
-            hsla(0, 0%, 100%, 0)),
+            hsla(0, 0%, 100%, 0)
+        ),
         url("../assets/heroBackground.webp");
 
     background-size: cover !important;
@@ -51,8 +53,8 @@
     font-size: calc(28px + (60 - 35) * ((100vw - 300px) / (1200 - 300)));
 }
 
-.main-heading>span,
-.hero-subheading>span {
+.main-heading > span,
+.hero-subheading > span {
     color: var(--primary) !important;
 }
 
