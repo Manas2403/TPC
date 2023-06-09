@@ -404,6 +404,17 @@ html:is([data-scroll="0"]) .mobile-heading {
   color: var(--primary);
 }
 
+.footer-email {
+  display: block;
+  color: #444444;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-email:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 1200px) {
   .footer_container {
     max-width: 1200px;
