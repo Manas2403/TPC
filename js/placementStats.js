@@ -129,7 +129,7 @@ var myChart2 = new Chart(placementPercent, {
             },
             {
                 label: "Under Graduate",
-                data: [92, 100, 97, 79],
+                data: [92, 100, 97, 77],
                 backgroundColor: "rgba(0,161,231,1)",
             },
         ],
@@ -168,10 +168,10 @@ var myChart2 = new Chart(placementPercent, {
 var horizontalBarChart = new Chart(horizontalBarChartCanvas, {
     type: "horizontalBar",
     data: {
-        labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+        labels: ["2017", "2018", "2019", "2020", "2021", "2022", "2023"],
         datasets: [
             {
-                data: [103, 98, 120, 120, 180, 220, 280],
+                data: [98, 120, 120, 180, 220, 280, 150],
                 backgroundColor: [
                     "#73BFB8",
                     "#73BFB8",
