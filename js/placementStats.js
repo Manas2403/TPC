@@ -1,6 +1,4 @@
 const xValues3 = [
-    "2015-16",
-    "2016-17",
     "2017-18",
     "2018-19",
     "2019-20",
@@ -9,7 +7,7 @@ const xValues3 = [
     "2022-23",
     "2023-24",
 ];
-const yValues3 = [27, 39, 36, 39, 43, 61.65, 102.5, 82.5, 121];
+const yValues3 = [36, 39, 43, 61.65, 102.5, 82.5, 121];
 
 const sexChart = new Chart("highestPackage", {
     type: "line",
@@ -63,8 +61,6 @@ var myChart = new Chart(ctx, {
     type: "bar",
     data: {
         labels: [
-            "2015-16",
-            "2016-17",
             "2017-18",
             "2018-19",
             "2019-20",
@@ -76,14 +72,12 @@ var myChart = new Chart(ctx, {
         datasets: [
             {
                 label: "Post Graduate",
-                data: [11.2, 12.5, 13.25, 15.5, 14.57, 14.45, 19.57, 19.87, 14],
+                data: [13.25, 15.5, 14.57, 14.45, 19.57, 19.87, 14],
                 backgroundColor: "rgb(65, 212, 146)",
             },
             {
                 label: "Under Graduate",
-                data: [
-                    11.2, 12.5, 13.25, 15.5, 20.83, 21.85, 30.68, 32.83, 25.78,
-                ],
+                data: [13.25, 15.5, 20.83, 21.85, 30.68, 32.83, 25.78],
                 backgroundColor: "rgba(0,161,231,1)",
             },
         ],
