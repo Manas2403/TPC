@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,368 +15,378 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <title>TPC | IIITA</title>
     <link rel="shortcut icon" href="./assets/InstituteLogo.webp" type="image/x-icon" />
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"
-      integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"
+        integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.slim.js"
-      integrity="sha512-G1QAKkF7DrLYdKiz55LTK3Tlo8Vet2JnjQHuJh+LnU0zimJkMZ7yKZ/+lQ/0m94NC1EisSVS1b35jugu3wLdQg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.slim.js"
+        integrity="sha512-G1QAKkF7DrLYdKiz55LTK3Tlo8Vet2JnjQHuJh+LnU0zimJkMZ7yKZ/+lQ/0m94NC1EisSVS1b35jugu3wLdQg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.slim.min.js"
-      integrity="sha512-fYjSocDD6ctuQ1QGIo9+Nn9Oc4mfau2IiE8Ki1FyMV4OcESUt81FMqmhsZe9zWZ6g6NdczrEMAos1GlLLAipWg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.slim.min.js"
+        integrity="sha512-fYjSocDD6ctuQ1QGIo9+Nn9Oc4mfau2IiE8Ki1FyMV4OcESUt81FMqmhsZe9zWZ6g6NdczrEMAos1GlLLAipWg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <link rel="stylesheet" href="./css/placementProcedures.css" />
     <link rel="stylesheet" href="./css/procedure.css" />
-  </head>
-  <body>
-    <nav class="nav-cont-wrapper opacity-1">
-      <div class="nav-cont">
-        <a href="index.html" style="text-decoration: none; color: white">
-          <div class="nav-logo">
-            <img src="./assets/InstituteLogo.webp" alt="logo" />
-            <h1 class="desktop-heading">
-              <span class="color-primary">Training</span> and <span class="color-primary">Placement</span> Cell
-            </h1>
-            <h1 class="mobile-heading">
-              <span class="color-primary">T</span>&<span class="color-primary">P</span>
-              Cell
-            </h1>
-          </div>
-        </a>
+</head>
 
-        <button class="nav-link-button">
-          <svg width="3rem" height="3rem" viewBox="0 0 100 100">
-            <path
-              class="menu-line menu-line1"
-              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
-            />
-            <path class="menu-line menu-line2" d="M 20,50 H 80" />
-            <path
-              class="menu-line menu-line3"
-              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
-            />
-          </svg>
-        </button>
-        <ul class="nav-links">
-          <li>
-            <a href="about.html" class="nav-link">About</a>
-          </li>
-          <li class="nav-collapse">
-            <span class="nav-link nav-collapse-header">Academics</span>
-            <ul class="nav-collapse-list">
-              <li class="nav-collapse-item">
-                <a href="courses.html" class="nav-link">Courses</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="demographics.html" class="nav-link">Demographics</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="achievements.html" class="nav-link">Achievements</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="academic_exchange_programs.html" class="nav-link">Acacedmic Exchange Programs</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="research_and_development.html" class="nav-link">Research and Development</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="student_life.html" class="nav-link">Student Life</a>
-              </li>
+<body>
+    <nav class="nav-cont-wrapper opacity-1">
+        <div class="nav-cont">
+            <a href="index.html" style="text-decoration: none; color: white">
+                <div class="nav-logo">
+                    <img src="./assets/InstituteLogo.webp" alt="logo" />
+                    <h1 class="desktop-heading">
+                        <span class="color-primary">Training</span> and <span class="color-primary">Placement</span>
+                        Cell
+                    </h1>
+                    <h1 class="mobile-heading">
+                        <span class="color-primary">T</span>&<span class="color-primary">P</span>
+                        Cell
+                    </h1>
+                </div>
+            </a>
+
+            <button class="nav-link-button">
+                <svg width="3rem" height="3rem" viewBox="0 0 100 100">
+                    <path class="menu-line menu-line1"
+                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="menu-line menu-line2" d="M 20,50 H 80" />
+                    <path class="menu-line menu-line3"
+                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+            </button>
+            <ul class="nav-links">
+                <li>
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-collapse">
+                    <span class="nav-link nav-collapse-header">Academics</span>
+                    <ul class="nav-collapse-list">
+                        <li class="nav-collapse-item">
+                            <a href="courses.html" class="nav-link">Courses</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="demographics.html" class="nav-link">Demographics</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="achievements.html" class="nav-link">Achievements</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="academic_exchange_programs.html" class="nav-link">Academic Exchange Programs</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="research_and_development.html" class="nav-link">Research and Development</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="student_life.html" class="nav-link">Student Life</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-collapse">
+                    <span class="nav-link nav-collapse-header">Recruiters</span>
+                    <ul class="nav-collapse-list">
+                        <li class="nav-collapse-item">
+                            <a href="placementStatistic.html" class="nav-link">Statistics</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="placement_procedures.html" class="nav-link">Procedure and Policies</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="our_recruiters.html" class="nav-link">Our Recruiters</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="brochure.html" class="nav-link">Brochure</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-collapse">
+                    <span class="nav-link nav-collapse-header">Contact Us</span>
+                    <ul class="nav-collapse-list">
+                        <li class="nav-collapse-item">
+                            <a href="contact-administration.html" class="nav-link">Administration</a>
+                        </li>
+                        <li class="nav-collapse-item">
+                            <a href="contact-team.html" class="nav-link">Team</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="reach.html" class="nav-link">Reach Us</a>
+                </li>
             </ul>
-          </li>
-          <li class="nav-collapse">
-            <span class="nav-link nav-collapse-header">Recruiters</span>
-            <ul class="nav-collapse-list">
-              <li class="nav-collapse-item">
-                <a href="placementStatistic.html" class="nav-link">Statistics</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="placement_procedures.html" class="nav-link">Procedure and Policies</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="our_recruiters.html" class="nav-link">Our Recruiters</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="brochure.html" class="nav-link">Brochure</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-collapse">
-            <span class="nav-link nav-collapse-header">Contact Us</span>
-            <ul class="nav-collapse-list">
-              <li class="nav-collapse-item">
-                <a href="contact-administration.html" class="nav-link">Administration</a>
-              </li>
-              <li class="nav-collapse-item">
-                <a href="contact-team.html" class="nav-link">Team</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="reach.html" class="nav-link">Reach Us</a>
-          </li>
-        </ul>
-      </div>
+        </div>
     </nav>
 
     <section class="page-container">
-      <div class="placement-text">
-        <div class="horizontal-align">
-          <div class="horizontal-row" id="job_policy">
-            <!-- <div class=""> -->
-            <h3 class="placement-heading">Job Policy</h3>
-            <!-- </div> -->
-            <div class="placement-content">
-              <p>
-                Companies visit campus and select students as per their recruitment drive.
-                <!-- </p> -->
-                <!-- <p> -->
-                When a student is finally selected by a company after all testing and interview rounds, the company may
-                offer :
-              </p>
-              <div class="placement-content">
-                <h5>Full time job offer</h5>
-                <p> The selected student will join company in June/July 2023 as full time employee. </p>
+        <div class="placement-text">
+            <div class="horizontal-align">
+                <div class="horizontal-row" id="job_policy">
+                    <!-- <div class=""> -->
+                    <h3 class="placement-heading">Job Policy</h3>
+                    <!-- </div> -->
+                    <div class="placement-content">
+                        <p>
+                            Companies visit campus and select students as per their recruitment drive.
+                            <!-- </p> -->
+                            <!-- <p> -->
+                            When a student is finally selected by a company after all testing and interview rounds, the
+                            company may
+                            offer :
+                        </p>
+                        <div class="placement-content">
+                            <h5>Full time job offer</h5>
+                            <p> The selected student will join company in June/July 2025 as full time employee. </p>
 
-                <h5>Internship</h5>
-                <p>
-                  Only B. Tech. students are eligible for 4-6 month internship. The student will join the company in
-                  January 2023 as an intern for a period of 4-6 months.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="horizontal-row" id="placement_facilities">
-            <h3 class="placement-heading">Placement Facilities</h3>
-            <div class="col s10 offset-s1 body">
-              <p>
-                The institute has world class facilities to meet the needs of placement and its procedure. The placement
-                process has always been congenial owing to the pre-requisites that are met by our institute which
-                include:
-              </p>
-              <ul>
-                <li>World class auditorium with a seating capacity of 800+.</li>
-                <li>Fully furnished AC rooms.</li>
-                <li>Conference rooms with audio visual setups.</li>
-                <li>Well-equipped Computer labs.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="placement-row" id="placement_procedure">
-          <h3 class="placement-heading">Placement Procedure</h3>
-          <section id="cd-timeline" class="cd-container cssanimations">
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture">
-                <img src="./assets/number-one.png" alt="Picture" />
-              </div>
-
-              <div class="cd-timeline-content">
-                <h2>Step 1</h2>
-                <p>
-                  The Training and Placement Office, IIITA sends invitations alongwith Job Notification Form(JNF) to
-                  organizations to participate in the campus placements.
-                </p>
-              </div>
+                            <h5>Internship</h5>
+                            <p>
+                                Only B. Tech. students are eligible for 4-6 month internship. The student will join the
+                                company in
+                                January 2025 as an intern for a period of 4-6 months.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-row" id="placement_facilities">
+                    <h3 class="placement-heading">Placement Facilities</h3>
+                    <div class="col s10 offset-s1 body">
+                        <p>
+                            The institute has world class facilities to meet the needs of placement and its procedure.
+                            The placement
+                            process has always been congenial owing to the pre-requisites that are met by our institute
+                            which
+                            include:
+                        </p>
+                        <ul>
+                            <li>World class auditorium with a seating capacity of 800+.</li>
+                            <li>Fully furnished AC rooms.</li>
+                            <li>Conference rooms with audio visual setups.</li>
+                            <li>Well-equipped Computer labs.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-movie">
-                <img src="./assets/number-2.png" alt="Picture" />
-              </div>
+            <div class="placement-row" id="placement_procedure">
+                <h3 class="placement-heading">Placement Procedure</h3>
+                <section id="cd-timeline" class="cd-container cssanimations">
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="./assets/number-one.png" alt="Picture" />
+                        </div>
 
-              <div class="cd-timeline-content">
-                <h2>Step 2</h2>
-                <p>
-                  Organization fills in the JNF containing details of the job offer (pay package, place of posting,
-                  allowances and other bonuses). JNF can be sent by email to Training and Placement Office, IIITA
-                  (placements@iiita.ac.in).
-                </p>
-              </div>
-            </div>
+                        <div class="cd-timeline-content">
+                            <h2>Step 1</h2>
+                            <p>
+                                The Training and Placement Office, IIITA sends invitations alongwith Job Notification
+                                Form(JNF) to
+                                organizations to participate in the campus placements.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture">
-                <img src="./assets/number-3.png" alt="Picture" />
-              </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="./assets/number-2.png" alt="Picture" />
+                        </div>
 
-              <div class="cd-timeline-content">
-                <h2>Step 3</h2>
-                <p>
-                  The organization details alongwith job offer is made available to the students on a private group,
-                  requesting them to apply.
-                </p>
-              </div>
-            </div>
+                        <div class="cd-timeline-content">
+                            <h2>Step 2</h2>
+                            <p>
+                                Organization fills in the JNF containing details of the job offer (pay package, place of
+                                posting,
+                                allowances and other bonuses). JNF can be sent by email to Training and Placement
+                                Office, IIITA
+                                (placements@iiita.ac.in).
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-location">
-                <img src="./assets/number-four.png" alt="Picture" />
-              </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="./assets/number-3.png" alt="Picture" />
+                        </div>
 
-              <div class="cd-timeline-content">
-                <h2>Step 4</h2>
-                <p>
-                  Training and Placement Office, IIITA allots date(s) to an organization for campus placements. The
-                  organization confirms the date(s) to Training and Placement Office, IIITA.
-                </p>
-              </div>
-            </div>
+                        <div class="cd-timeline-content">
+                            <h2>Step 3</h2>
+                            <p>
+                                The organization details alongwith job offer is made available to the students on a
+                                private group,
+                                requesting them to apply.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-location">
-                <img src="./assets/number-5.png" alt="Picture" />
-              </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-location">
+                            <img src="./assets/number-four.png" alt="Picture" />
+                        </div>
 
-              <div class="cd-timeline-content">
-                <h2>Step 5</h2>
-                <p>
-                  The list of the students who have applied is provided to the organization along with their Resumes.
-                </p>
-              </div>
-            </div>
+                        <div class="cd-timeline-content">
+                            <h2>Step 4</h2>
+                            <p>
+                                Training and Placement Office, IIITA allots date(s) to an organization for campus
+                                placements. The
+                                organization confirms the date(s) to Training and Placement Office, IIITA.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-movie">
-                <img src="./assets/number-6.png" alt="Picture" />
-              </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-location">
+                            <img src="./assets/number-5.png" alt="Picture" />
+                        </div>
 
-              <div class="cd-timeline-content">
-                <h2>Step 6</h2>
-                <p>
-                  Organizations come to campus on the allotted date(s) and conduct tests and/or interviews as per their
-                  recruitment process.
-                </p>
-              </div>
-            </div>
+                        <div class="cd-timeline-content">
+                            <h2>Step 5</h2>
+                            <p>
+                                The list of the students who have applied is provided to the organization along with
+                                their Resumes.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-movie">
-                <img src="./assets/number-seven.png" alt="Picture" />
-              </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="./assets/number-6.png" alt="Picture" />
+                        </div>
 
-              <div class="cd-timeline-content">
-                <h2>Step 7</h2>
-                <p>
-                  The organization is expected to furnish the list of selected candidates at the end of assigned
-                  interview slot, preferably on the day of campus visit.
-                </p>
-              </div>
-            </div>
+                        <div class="cd-timeline-content">
+                            <h2>Step 6</h2>
+                            <p>
+                                Organizations come to campus on the allotted date(s) and conduct tests and/or interviews
+                                as per their
+                                recruitment process.
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-movie">
-                <img src="./assets/completed.png" alt="Picture" />
-              </div>
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="./assets/number-seven.png" alt="Picture" />
+                        </div>
 
-              <div class="cd-timeline-content">
-                <h2>Final Step</h2>
-                <p>
-                  Training and Placement Office, IIITA also coordinates the signing of offer letter by students who have
-                  been selected to ensure that they reach the organization/company asap.
-                </p>
-              </div>
-            </div>
-          </section>
-          <!-- <div class="col s10 offset-s1 body">
+                        <div class="cd-timeline-content">
+                            <h2>Step 7</h2>
+                            <p>
+                                The organization is expected to furnish the list of selected candidates at the end of
+                                assigned
+                                interview slot, preferably on the day of campus visit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="./assets/completed.png" alt="Picture" />
+                        </div>
+
+                        <div class="cd-timeline-content">
+                            <h2>Final Step</h2>
+                            <p>
+                                Training and Placement Office, IIITA also coordinates the signing of offer letter by
+                                students who have
+                                been selected to ensure that they reach the organization/company asap.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- <div class="col s10 offset-s1 body">
             
           </div> -->
-        </div>
-
-        <div class="placement-row" id="placement_policy">
-          <p class="placement-heading">Placement Policy</p>
-          <div class="placement-content">
-            <div>
-              <h5>Classification of Company</h5>
-              <p>
-                The classification of a company will based on the criteria of pay packages(CTC) and work profile. The
-                two classes being:
-              </p>
-              <ul>
-                <li>First Round Company</li>
-                <li>Dream Round Company</li>
-              </ul>
-              <p>
-                Overall CTC of a company includes joining bonus and all other perks, if applicable. Eligibility for a
-                dream round company for a student will be decided on the basis of overall CTC.
-              </p>
             </div>
 
-            <h5>Job Offer for a student</h5>
-            <ul>
-              <li>
-                If a student's name appears on the final shortlist declared after the Company's process through the
-                Placement Cell, then that would be considered as a Job Offer to the student.
-              </li>
-              <li>
-                A student will be out of campus placement process only if he/she gets an offer from a Dream Round
-                company.
-              </li>
-              <li>
-                Students getting a Job Offer from a First Round company are still eligible for further placements and
-                only these students are allowed to upgrade to a Dream Round company.
-              </li>
-              <li>
-                PPO Offer and off-campus placements are also considered as Job Offer, hence the same policy is
-                applicable to them.
-              </li>
-            </ul>
+            <div class="placement-row" id="placement_policy">
+                <p class="placement-heading">Placement Policy</p>
+                <div class="placement-content">
+                    <div>
+                        <h5>Classification of Company</h5>
+                        <p>
+                            The classification of a company will based on the criteria of pay packages(CTC) and work
+                            profile. The
+                            two classes being:
+                        </p>
+                        <ul>
+                            <li>First Round Company</li>
+                            <li>Dream Round Company</li>
+                        </ul>
+                        <p>
+                            Overall CTC of a company includes joining bonus and all other perks, if applicable.
+                            Eligibility for a
+                            dream round company for a student will be decided on the basis of overall CTC.
+                        </p>
+                    </div>
 
-            <h5 style="padding-top: 1rem">Job Offer made by Company</h5>
-            <ul>
-              <li> The companies are requested to announce the result/ final shortlist on the day of campus visit. </li>
-              <li>
-                The company should hand over the duly signed hard copy of the final selection list to the placement
-                cell.
-              </li>
-              <li>
-                The company shall provide the offer letters to the Placement office and not directly to the students.
-              </li>
-              <li>
-                The purview of the Placement Cell is restricted only to the offers made as part of the campus placement
-                process.
-              </li>
-              <li>
-                In case the company is unable to declare the result on the same day, then the student is allowed to
-                participate in other companies until the result is declared. The final status will depend upon who
-                declares the result first.
-              </li>
-            </ul>
-            <!-- </div> -->
-          </div>
+                    <h5>Job Offer for a student</h5>
+                    <ul>
+                        <li>
+                            If a student's name appears on the final shortlist declared after the Company's process
+                            through the
+                            Placement Cell, then that would be considered as a Job Offer to the student.
+                        </li>
+                        <li>
+                            A student will be out of campus placement process only if he/she gets an offer from a Dream
+                            Round
+                            company.
+                        </li>
+                        <li>
+                            Students getting a Job Offer from a First Round company are still eligible for further
+                            placements and
+                            only these students are allowed to upgrade to a Dream Round company.
+                        </li>
+                        <li>
+                            PPO Offer and off-campus placements are also considered as Job Offer, hence the same policy
+                            is
+                            applicable to them.
+                        </li>
+                    </ul>
+
+                    <h5 style="padding-top: 1rem">Job Offer made by Company</h5>
+                    <ul>
+                        <li> The companies are requested to announce the result/ final shortlist on the day of campus
+                            visit. </li>
+                        <li>
+                            The company should hand over the duly signed hard copy of the final selection list to the
+                            placement
+                            cell.
+                        </li>
+                        <li>
+                            The company shall provide the offer letters to the Placement office and not directly to the
+                            students.
+                        </li>
+                        <li>
+                            The purview of the Placement Cell is restricted only to the offers made as part of the
+                            campus placement
+                            process.
+                        </li>
+                        <li>
+                            In case the company is unable to declare the result on the same day, then the student is
+                            allowed to
+                            participate in other companies until the result is declared. The final status will depend
+                            upon who
+                            declares the result first.
+                        </li>
+                    </ul>
+                    <!-- </div> -->
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <section class="footer-section" style="padding: 100px 0">
-      <div class="footer_container">
-        <div class="pre-footer">
-          <!-- <ul class="list">
+        <div class="footer_container">
+            <div class="pre-footer">
+                <!-- <ul class="list">
             <li class="list-head">
               <h6 style="font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.2"> About IIITA </h6>
             </li>
@@ -390,95 +401,90 @@
               <div class="social-links"></div>
             </li>
           </ul> -->
-          <ul class="list">
-            <li class="list-head">
-              <div style="font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.2">
-                Useful Links
-              </div>
-            </li>
-            <li class="list-body">
-              <div class="row">
-                <div class="col">
-                  <a href="placementStatistic.html">Statistics</a>
-                  <a href="placement_procedures.html">Procedures and Policies</a>
-                  <a href="our_recruiters.html">Our Recruiters</a>
-                  <a href="brochure.html">Brochure</a>
-                </div>
-                <div class="col">
-                  <a href="courses.html">Courses</a>
-                  <a href="demographics.html">Demographics</a>
-                  <a href="achievements.html">Achievements</a>
-                  <a href="assets/PlacementPolicy23-24.pdf"
-                    >Placement Policy <span style="display: inline-block">(For students)</span></a
-                  >
-                </div>
-              </div>
-            </li>
-          </ul>
-          <ul class="list-2">
-            <li class="list-head-2">
-              <div style="font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.2">
-                Contact Info
-              </div>
-            </li>
-            <li class="list-body-2">
-              <p> <i class="fa-regular fa-user" style="margin-right: 10px"></i>Dr. Muneendra Ojha </p>
-              <p
-                ><i class="fa fa-building" style="margin-right: 10px"></i
-                ><span style="display: inline-flex; flex-direction: column">
-                  <span>Faculty-in-Charge</span>
-                  <span>Training and Placements</span>
-                </span></p
-              >
-              <p>
-                <i class="fa-solid fa-mobile-screen" style="margin-right: 10px"></i>
-                +91-9415648188
-              </p>
+                <ul class="list">
+                    <li class="list-head">
+                        <div style="font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.2">
+                            Useful Links
+                        </div>
+                    </li>
+                    <li class="list-body">
+                        <div class="row">
+                            <div class="col">
+                                <a href="placementStatistic.html">Statistics</a>
+                                <a href="placement_procedures.html">Procedures and Policies</a>
+                                <a href="our_recruiters.html">Our Recruiters</a>
+                                <a href="brochure.html">Brochure</a>
+                            </div>
+                            <div class="col">
+                                <a href="courses.html">Courses</a>
+                                <a href="demographics.html">Demographics</a>
+                                <a href="achievements.html">Achievements</a>
+                                <a href="assets/PlacementPolicy23-24.pdf">Placement Policy <span
+                                        style="display: inline-block">(For students)</span></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="list-2">
+                    <li class="list-head-2">
+                        <div style="font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.2">
+                            Contact Info
+                        </div>
+                    </li>
+                    <li class="list-body-2">
+                        <p> <i class="fa-regular fa-user" style="margin-right: 10px"></i>Dr. Muneendra Ojha </p>
+                        <p><i class="fa fa-building" style="margin-right: 10px"></i><span
+                                style="display: inline-flex; flex-direction: column">
+                                <span>Faculty-in-Charge</span>
+                                <span>Training and Placements</span>
+                            </span></p>
+                        <p>
+                            <i class="fa-solid fa-mobile-screen" style="margin-right: 10px"></i>
+                            +91-9899364673
+                        </p>
 
-              <a href="mailto:tpo@iiita.ac.in" class="footer-email">
-                <i class="fa-regular fa-envelope" style="margin-right: 10px"></i>
-                tpo@iiita.ac.in
-              </a>
-              <a href="mailto:placements@iiita.ac.in" class="footer-email">
-                <i class="fa-regular fa-envelope" style="margin-right: 10px"></i>
-                placements@iiita.ac.in
-              </a>
-            </li>
-          </ul>
-          <ul class="list-2">
-            <li class="list-head-2">
-              <div
-                style="color: transparent; font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.2"
-              >
-                Contact Info
-              </div>
-            </li>
-            <li class="list-body-2">
-              <a href="https://www.linkedin.com/in/dalmiasarthak/" class="footer-email"
-                ><i class="fa-regular fa-user" style="margin-right: 10px"></i>Sarthak Dalmia
-              </a>
-              <p
-                ><i class="fa fa-building" style="margin-right: 10px"></i
-                ><span style="display: inline-flex; flex-direction: column">
-                  <span>Student Coordinator</span>
-                  <span>Training and Placements</span>
-                </span></p
-              >
-              <p>
-                <i class="fa-solid fa-mobile-screen" style="margin-right: 10px"></i>
-                +91-7001042878
-              </p>
+                        <a href="mailto:tpo@iiita.ac.in" class="footer-email">
+                            <i class="fa-regular fa-envelope" style="margin-right: 10px"></i>
+                            tpo@iiita.ac.in
+                        </a>
+                        <a href="mailto:placements@iiita.ac.in" class="footer-email">
+                            <i class="fa-regular fa-envelope" style="margin-right: 10px"></i>
+                            placements@iiita.ac.in
+                        </a>
+                    </li>
+                </ul>
+                <ul class="list-2">
+                    <li class="list-head-2">
+                        <div
+                            style="color: transparent; font-weight: 700; font-size: 1rem; margin-bottom: 0.5rem; line-height: 1.2">
+                            Contact Info
+                        </div>
+                    </li>
+                    <li class="list-body-2">
+                        <a href="https://www.linkedin.com/in/dalmiasarthak/" class="footer-email"><i
+                                class="fa-regular fa-user" style="margin-right: 10px"></i>Aditya Sharma
+                        </a>
+                        <p><i class="fa fa-building" style="margin-right: 10px"></i><span
+                                style="display: inline-flex; flex-direction: column">
+                                <span>Student Coordinator</span>
+                                <span>Training and Placements</span>
+                            </span></p>
+                        <p>
+                            <i class="fa-solid fa-mobile-screen" style="margin-right: 10px"></i>
+                            +91-8267003288
+                        </p>
 
-              <a href="mailto:placements@iiita.ac.in" class="footer-email">
-                <i class="fa-regular fa-envelope" style="margin-right: 10px"></i>
-                placements@iiita.ac.in
-              </a>
-            </li>
-          </ul>
+                        <a href="mailto:placements@iiita.ac.in" class="footer-email">
+                            <i class="fa-regular fa-envelope" style="margin-right: 10px"></i>
+                            placements@iiita.ac.in
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </section>
     <script src="./js/procedure.js"></script>
     <script src="./js/index.js"></script>
-  </body>
+</body>
+
 </html>
