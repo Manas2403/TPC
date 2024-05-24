@@ -1,5 +1,5 @@
 var xValues = ["IT", "ECE", "IT-BI"];
-var yValues = [272, 128, 45];
+var yValues = [275, 118, 45];
 var barColors = ["#4472C4", "#FFC000", "#49A646"];
 
 new Chart("demographicsUG", {
@@ -38,9 +38,7 @@ const data = {
         "Cyber Laws and Information Security (CLIS)",
         "Wireless Communication and Computing (WCC)",
         "Microelectronics (MI)",
-        "Communication Engineering (CE)",
         "Bioinformatics (BI)",
-        "Data Science and Analytics (DSA)",
       ],
 
       backgroundColor: [
@@ -56,17 +54,16 @@ const data = {
         "#6db86b",
         "#e04749",
       ],
-      data: [16, 16, 5, 16, 12, 16, 11, 15, 9, 13, 12],
+      data: [16, 12, 9, 16, 12, 16, 14, 14, 14],
     },
     {
       labels: [
         "Information Technology",
         "Electronics and Communication Engineering",
         "Bio Informatics",
-        "Data Science and Analytics",
       ],
       backgroundColor: ["#4472c4", "#ffc000", "#49a646", "#D8191B"],
-      data: [92, 24, 13, 12],
+      data: [95, 14, 14],
     },
   ],
 };
@@ -102,16 +99,16 @@ const config = {
 new Chart("demographicsPG", config);
 
 const dataBar = {
-  labels: ["IT", "ECE", "BI", "DSA"],
+  labels: ["IT", "ECE", "BI"],
   datasets: [
     {
       label: "Male",
-      data: [83, 17, 9, 9],
+      data: [76, 11, 8],
       backgroundColor: "#27ABE9",
     },
     {
       label: "Female",
-      data: [9, 7, 4, 3],
+      data: [19, 3, 6],
       backgroundColor: "#F43382",
     },
   ],
